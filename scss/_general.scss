@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: $white;
+}
+
+// background image mixin
+@mixin backgroundImage($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+// Font Style Mixin
+@mixin fontStyle($size, $color, $weight) {
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+// Button Style
+@mixin buttonStyle($padding, $bg, $color) {
+  color: $color;
+  background: $bg;
+  padding: $padding;
+  border-radius: 50px;
+}
+
+// Display Flex Style
+@mixin displayFlex($display, $aline, $justify, $direction) {
+  display: $display;
+  align-items: $aline;
+  justify-content: $justify;
+  flex-direction: $direction;
+}

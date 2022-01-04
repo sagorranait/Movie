@@ -1,0 +1,168 @@
+/*
+ Website Name: KALLYAS - Watch Unlimited Movie
+ Author: SAGOR RANA
+ Email: sagorranait@gmail.com
+
+ ** import All the SCSS files here. **
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+/*
+ Website Name: KALLYAS - Watch Unlimited Movie
+ Author: SAGOR RANA
+ Email: sagorranait@gmail.com
+
+ ** import All the SCSS files here. **
+*/
+#kallaysHeader {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/header-background.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#kallaysHeader:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(50%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.3)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.kallays-hero {
+  position: relative;
+  z-index: 1;
+  padding: 30px 0;
+}
+
+.kallays-hero .movie-image {
+  text-align: center;
+}
+
+.movie-description {
+  width: 100%;
+  height: 495px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.movie-description .movie-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.movie-description .movie-tags .tag {
+  padding: 5px 9px;
+  margin-right: 13px;
+}
+
+.movie-description .movie-tags .tag p {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Navbar Area Start */
+.kallays-navbar .nav-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  padding-right: 37px !important;
+}
+
+.kallays-navbar .nav-link.active {
+  color: #f10e1f;
+  font-weight: 700;
+}
+
+.kallays-navbar .navbar-search {
+  margin: 0 35px 0 60px;
+  position: relative;
+}
+
+.kallays-navbar .navbar-search .form-control {
+  padding: 2px 0;
+  font-size: 14px;
+  color: #f10e1f;
+  background: none;
+  border-color: #f10e1f;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 0px;
+}
+
+.kallays-navbar .navbar-search .form-control::-webkit-input-placeholder {
+  color: #f10e1f;
+}
+
+.kallays-navbar .navbar-search .form-control:-ms-input-placeholder {
+  color: #f10e1f;
+}
+
+.kallays-navbar .navbar-search .form-control::-ms-input-placeholder {
+  color: #f10e1f;
+}
+
+.kallays-navbar .navbar-search .form-control::placeholder {
+  color: #f10e1f;
+}
+
+.kallays-navbar .navbar-search .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.kallays-navbar .navbar-search .search-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+}
+
+.kallays-navbar .navbar-search .search-icon i {
+  font-size: 14px;
+  color: #f10e1f;
+}
+
+.kallays-navbar .kallyas-btn {
+  color: #fff;
+  background: #f10e1f;
+  padding: 0 0 0 26px;
+  border-radius: 50px;
+}
+
+/* Navbar Area End */
+/*# sourceMappingURL=main.css.map */

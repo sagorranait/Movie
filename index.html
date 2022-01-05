@@ -7,6 +7,7 @@
   <title>KALLYAS - Watch Unlimited Movie</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel="stylesheet" href="./css/slick.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -90,11 +91,103 @@
         </div>
       </div>
     </div>
-    <div class="kallays-popular-serials"></div>
+    <div class="kallays-popular-serials">
+      <h3>Popular Serials</h3>
+      <div class="serials-slider">
+        <div class="serial">
+          <img src="./images/movies/96.jpg" alt="96 Movie">
+        </div>
+        <div class="serial">
+          <img src="./images/movies/bahubali.jpg" alt="96 Movie">
+        </div>
+        <div class="serial">
+          <img src="./images/movies/rrr.jpg" alt="96 Movie">
+        </div>
+        <div class="serial">
+          <img src="./images/movies/cave.jpg" alt="96 Movie">
+        </div>
+        <div class="serial">
+          <img src="./images/movies/ghajini.jpg" alt="96 Movie">
+        </div>
+        <div class="serial">
+          <img src="./images/movies/jai-bhim.jpg" alt="96 Movie">
+        </div>
+        <div class="serial">
+          <img src="./images/movies/kgf.jpg" alt="96 Movie">
+        </div>
+        <div class="serial">
+          <img src="./images/movies/Padmaavat.jpg" alt="96 Movie">
+        </div>
+        <div class="serial">
+          <img src="./images/movies/radhe.jpg" alt="96 Movie">
+        </div>
+        <div class="serial">
+          <img src="./images/movies/robot.jpg" alt="96 Movie">
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/main.js"></script>
+<section class="single-movie">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-xxl-6">
+        <div class="teaser-video">
+          <figure>
+            <video>
+              <source src="./images/videos/K.G.F.mp4" type="video/mp4" />
+            </video>
+            <div class="teaser-controls">
+              <div class="teaser-play">
+                <img class="video-play show" src="./images/movies/play-button.png" alt="play">
+                <img class="video-push hide" src="./images/movies/pause.png" alt="push">
+              </div>
+              <div class="teaser-buttom">
+                <div class="teaser-bar">
+                  <div class="teaser-juice"></div>
+                </div>
+                <div class="teaser-sound">
+                  <img class="video-volume show" src="./images/movies/play-button.png" alt="volume">
+                  <img class="video-mute hide" src="./images/movies/pause.png" alt="mute">
+                </div>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-xxl-6">
+        <div class="movie-description">
+          <div class="movie-tags">
+            <div class="tag tag-year">
+              <p>2021</p>
+            </div>
+            <div class="tag tag-action">
+              <p>Action</p>
+            </div>
+            <div class="tag tag-adventure">
+              <p>Adventure</p>
+            </div>
+          </div>
+          <div class="movie-title">
+            <h1>Pushpa: The Rise - Part 1</h1>
+          </div>
+          <div class="movie-short-description">
+            <p>Story of Pushpa Raj, a lorry driver in Seshachalam forests of South India, set in the backdrop of red sandalwood smuggling. Red Sandalwood is endemic to South-Eastern Ghats (mountain range) of India.</p>
+          </div>
+          <div class="movie-buttons">
+            <button class="movie-btn-one"><i class="fas fa-play"></i> Play Trailer</button>
+            <button class="movie-btn-two"><i class="fas fa-heart"></i> Add to List</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 #kallaysHeader {
   width: 100%;
-  height: 100vh;
+  height: 925px;
   @include backgroundImage('../images/header-background.png');
   position: relative;
 
@@ -29,5 +29,47 @@
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.3) 100%
     );
+  }
+
+  .kallays-popular-serials {
+    padding-top: 30px;
+
+    h3 {
+      @include fontStyle(14px, $silver, 300);
+      text-transform: uppercase;
+    }
+
+    .serials-slider {
+      width: 100%;
+      height: 222px;
+      margin-top: 25px;
+      position: relative;
+
+      .serial {
+        width: 220px !important;
+        height: 220px;
+        background-color: $red;
+        margin-right: 15px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center top;
+        }
+      }
+
+      .slick-prev {
+        position: absolute;
+        top: 110px;
+        left: -45px;
+      }
+
+      .slick-next {
+        position: absolute;
+        top: 110px;
+        right: -45px;
+      }
+    }
   }
 }

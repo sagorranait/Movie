@@ -292,6 +292,54 @@
   left: 0;
 }
 
+.teaser-video figure .teaser-controls .teaser-buttom {
+  width: 100%;
+  height: 15px;
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.teaser-video figure .teaser-controls .teaser-buttom .teaser-bar {
+  width: 580px;
+  height: 5px;
+  border-radius: 50px;
+  background: #15202b;
+  margin: 3px 11px 0 0;
+}
+
+.teaser-video figure .teaser-controls .teaser-buttom .teaser-bar .teaser-juice {
+  width: 50%;
+  height: 5px;
+  border-radius: 50px;
+  background: #f10e1f;
+}
+
+.teaser-video figure .teaser-controls .teaser-buttom .teaser-sound .video-volume, .teaser-video figure .teaser-controls .teaser-buttom .teaser-sound .video-mute {
+  width: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.teaser-video figure .teaser-controls .teaser-buttom .teaser-sound .video-mute {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
 /* Navbar Area Start */
 .kallays-navbar .nav-link {
   color: #fff;

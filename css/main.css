@@ -127,7 +127,7 @@
           flex-direction: column;
 }
 
-.movie-description .movie-tags {
+.movie-description .movie-tags, .movie-description .right-align {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -143,13 +143,13 @@
           flex-direction: row;
 }
 
-.movie-description .movie-tags .tag {
+.movie-description .movie-tags .tag, .movie-description .right-align .tag {
   border-radius: 2px;
   padding: 5px 9px;
   margin-right: 13px;
 }
 
-.movie-description .movie-tags .tag p {
+.movie-description .movie-tags .tag p, .movie-description .right-align .tag p {
   margin: 0;
   color: #fff;
   font-size: 14px;
@@ -157,16 +157,32 @@
   text-transform: uppercase;
 }
 
-.movie-description .movie-tags .tag.tag-year {
+.movie-description .movie-tags .tag.tag-year, .movie-description .right-align .tag.tag-year {
   background: #f4b01e;
 }
 
-.movie-description .movie-tags .tag.tag-action {
+.movie-description .movie-tags .tag.tag-action, .movie-description .right-align .tag.tag-action {
   background: #37a3df;
 }
 
-.movie-description .movie-tags .tag.tag-adventure {
+.movie-description .movie-tags .tag.tag-adventure, .movie-description .right-align .tag.tag-adventure {
   background: #df5f37;
+}
+
+.movie-description .right-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .movie-description .movie-title {
@@ -181,6 +197,10 @@
   text-transform: uppercase;
 }
 
+.movie-description .title-right {
+  text-align: right;
+}
+
 .movie-description .movie-short-description {
   padding-bottom: 35px;
 }
@@ -191,6 +211,10 @@
   font-weight: 300;
   line-height: 23px;
   margin: 0;
+}
+
+.movie-description .description-right {
+  text-align: right;
 }
 
 .movie-description .movie-buttons .movie-btn-one, .movie-description .movie-buttons .movie-btn-two {
@@ -218,9 +242,17 @@
   border: 1px solid #000000;
 }
 
-.single-movie {
+.movie-description .button-right {
+  text-align: right;
+}
+
+.movie-description .button-right .movie-btn-two {
+  margin-right: 0;
+}
+
+#singleMovie {
   width: 100%;
-  height: 555px;
+  height: 530px;
   background-image: url("../images/single-movie-bg.png");
   background-size: cover;
   background-position: center center;
@@ -322,7 +354,7 @@
 }
 
 .teaser-video figure .teaser-controls .teaser-buttom .teaser-bar .teaser-juice {
-  width: 50%;
+  width: 1%;
   height: 5px;
   border-radius: 50px;
   background: #f10e1f;
@@ -338,6 +370,25 @@
   position: absolute;
   top: 0;
   right: 15px;
+}
+
+#trendsNow {
+  width: 100%;
+  height: 1065px;
+  background: #000000;
+}
+
+#trendsNow .kallays-ads {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#trendsNow .trending-movie h3 {
+  color: #b0b0b0;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 /* Navbar Area Start */

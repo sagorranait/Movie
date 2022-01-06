@@ -1,0 +1,18 @@
+#trendsNow {
+  width: 100%;
+  height: 1065px;
+  background: $black;
+
+  .kallays-ads {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .trending-movie {
+    h3 {
+      @include fontStyle(14px, $silver, 300);
+      text-transform: uppercase;
+    }
+  }
+}

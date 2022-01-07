@@ -13,6 +13,8 @@
     h3 {
       @include fontStyle(14px, $silver, 300);
       text-transform: uppercase;
+      margin: 0;
+      padding-bottom: 35px;
     }
   }
 }

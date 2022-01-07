@@ -389,6 +389,8 @@
   font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 35px;
 }
 
 /* Navbar Area Start */

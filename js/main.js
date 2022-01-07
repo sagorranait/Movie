@@ -83,7 +83,7 @@ $(document).ready(function(){
   // Movie Isotope
   // init Isotope
 var $grid = $('.grid').isotope({
-  itemSelector: '.element-item',
+  itemSelector: '.movie-item',
   layoutMode: 'fitRows',
   getSortData: {
     name: '.name',

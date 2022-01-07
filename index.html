@@ -199,21 +199,22 @@
           <div class="movies-isotope">
             <div id="filters" class="button-group">  
               <button class="button is-checked" data-filter="*">All Movie</button>
-              <button class="button" data-filter=".metal">Action</button>
-              <button class="button" data-filter=".transition">Adventure</button>
+              <button class="button" data-filter=".action">Action</button>
+              <button class="button" data-filter=".adventure">Adventure</button>
               <button class="button" data-filter=".romance">Romance</button>
-              <button class="button" data-filter=".alkali, .alkaline-earth">Animation</button>
-              <button class="button" data-filter=":not(.transition)">Biography</button>
-              <button class="button" data-filter=".metal:not(.transition)">Crime</button>
-              <button class="button" data-filter="numberGreaterThan50">Comedy</button>
-              <button class="button" data-filter="ium">Drama</button>
-              <button class="button" data-filter=".transition">Documentary</button>
+              <button class="button" data-filter=".drama">Drama</button>
+              <button class="button" data-filter=".comedy">Comedy</button>
+              <button class="button" data-filter=".animation">Animation</button>
+              <button class="button" data-filter=".biography:not(.romance)">Biography</button>
+              <button class="button" data-filter=".crime:not(.romance)">Crime</button>
+              <button class="button" data-filter=".documentary">Documentary</button>
+              <button class="button" data-filter=".war">War</button>
             </div>
             
             <div class="grid">
               <div class="row">
                 <div class="col">
-                  <div class="movie-item romance drama" data-category="transition">
+                  <div class="movie-item romance drama documentary" data-category="romance">
                     <div class="movie-image">
                       <img src="./images/movies/96.jpg" alt="96-movie" />
                     </div>
@@ -236,12 +237,81 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="movie-item metalloid " data-category="metalloid">
+                  <div class="movie-item action war" data-category="action">
                     <div class="movie-image">
-                      <img src="./images/movies/bahubali.jpg" alt="96-movie" />
+                      <img src="./images/movies/bahubali.jpg" alt="bahubali-movie" />
                     </div>
                     <div class="movie-title">
-                      <h3>'96 - True Love Story</h3>
+                      <h3>Baahubali - The Beginning</h3>
+                    </div>
+                    <div class="about-movie">
+                      <div class="movie-year">
+                        <p>2015</p>
+                      </div>
+                      <div class="movie-icon">
+                        <a href="#"><i class="fas fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-eye"></i></a>
+                      </div>
+                      <div class="movie-rating">
+                        <a href="#"><i class="fas fa-star"></i></a>
+                        <p>8</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="movie-item action drama" data-category="action">
+                    <div class="movie-image">
+                      <img src="./images/movies/pushpa.png" alt="pushpa-movie" />
+                    </div>
+                    <div class="movie-title">
+                      <h3>Pushpa - The Rise</h3>
+                    </div>
+                    <div class="about-movie">
+                      <div class="movie-year">
+                        <p>2021</p>
+                      </div>
+                      <div class="movie-icon">
+                        <a href="#"><i class="fas fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-eye"></i></a>
+                      </div>
+                      <div class="movie-rating">
+                        <a href="#"><i class="fas fa-star"></i></a>
+                        <p>8.1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="movie-item drama documentary adventure" data-category="drama">
+                    <div class="movie-image">
+                      <img src="./images/movies/radhe.jpg" alt="radhe-movie" />
+                    </div>
+                    <div class="movie-title">
+                      <h3>Radhe Shyam</h3>
+                    </div>
+                    <div class="about-movie">
+                      <div class="movie-year">
+                        <p>2022</p>
+                      </div>
+                      <div class="movie-icon">
+                        <a href="#"><i class="fas fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-eye"></i></a>
+                      </div>
+                      <div class="movie-rating">
+                        <a href="#"><i class="fas fa-star"></i></a>
+                        <p>8</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="movie-item action animation comedy" data-category="action">
+                    <div class="movie-image">
+                      <img src="./images/movies/robot.jpg" alt="robot-movie" />
+                    </div>
+                    <div class="movie-title">
+                      <h3>Robot 2.0</h3>
                     </div>
                     <div class="about-movie">
                       <div class="movie-year">
@@ -253,91 +323,22 @@
                       </div>
                       <div class="movie-rating">
                         <a href="#"><i class="fas fa-star"></i></a>
-                        <p>8.5</p>
+                        <p>6.2</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="movie-item post-transition metal " data-category="post-transition">
-                    <div class="movie-image">
-                      <img src="./images/movies/pushpa.png" alt="96-movie" />
-                    </div>
-                    <div class="movie-title">
-                      <h3>'96 - True Love Story</h3>
-                    </div>
-                    <div class="about-movie">
-                      <div class="movie-year">
-                        <p>2018</p>
-                      </div>
-                      <div class="movie-icon">
-                        <a href="#"><i class="fas fa-heart"></i></a>
-                        <a href="#"><i class="fas fa-eye"></i></a>
-                      </div>
-                      <div class="movie-rating">
-                        <a href="#"><i class="fas fa-star"></i></a>
-                        <p>8.5</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="movie-item post-transition metal " data-category="post-transition">
-                    <div class="movie-image">
-                      <img src="./images/movies/radhe.jpg" alt="96-movie" />
-                    </div>
-                    <div class="movie-title">
-                      <h3>'96 - True Love Story</h3>
-                    </div>
-                    <div class="about-movie">
-                      <div class="movie-year">
-                        <p>2018</p>
-                      </div>
-                      <div class="movie-icon">
-                        <a href="#"><i class="fas fa-heart"></i></a>
-                        <a href="#"><i class="fas fa-eye"></i></a>
-                      </div>
-                      <div class="movie-rating">
-                        <a href="#"><i class="fas fa-star"></i></a>
-                        <p>8.5</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="movie-item transition metal " data-category="transition">
-                    <div class="movie-image">
-                      <img src="./images/movies/robot.jpg" alt="96-movie" />
-                    </div>
-                    <div class="movie-title">
-                      <h3>'96 - True Love Story</h3>
-                    </div>
-                    <div class="about-movie">
-                      <div class="movie-year">
-                        <p>2018</p>
-                      </div>
-                      <div class="movie-icon">
-                        <a href="#"><i class="fas fa-heart"></i></a>
-                        <a href="#"><i class="fas fa-eye"></i></a>
-                      </div>
-                      <div class="movie-rating">
-                        <a href="#"><i class="fas fa-star"></i></a>
-                        <p>8.5</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="movie-item alkali metal " data-category="alkali">
+                  <div class="movie-item action drama" data-category="action">
                     <div class="movie-image">
                       <img src="./images/movies/rrr.jpg" alt="96-movie" />
                     </div>
                     <div class="movie-title">
-                      <h3>'96 - True Love Story</h3>
+                      <h3>RRR - Return Receipt Requested</h3>
                     </div>
                     <div class="about-movie">
                       <div class="movie-year">
-                        <p>2018</p>
+                        <p>2021</p>
                       </div>
                       <div class="movie-icon">
                         <a href="#"><i class="fas fa-heart"></i></a>
@@ -345,22 +346,22 @@
                       </div>
                       <div class="movie-rating">
                         <a href="#"><i class="fas fa-star"></i></a>
-                        <p>8.5</p>
+                        <p>8.4</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="movie-item alkali metal " data-category="alkali">
+                  <div class="movie-item action war crime comedy" data-category="action">
                     <div class="movie-image">
                       <img src="./images/movies/war.jpg" alt="96-movie" />
                     </div>
                     <div class="movie-title">
-                      <h3>'96 - True Love Story</h3>
+                      <h3>War - 2019</h3>
                     </div>
                     <div class="about-movie">
                       <div class="movie-year">
-                        <p>2018</p>
+                        <p>2019</p>
                       </div>
                       <div class="movie-icon">
                         <a href="#"><i class="fas fa-heart"></i></a>
@@ -368,18 +369,18 @@
                       </div>
                       <div class="movie-rating">
                         <a href="#"><i class="fas fa-star"></i></a>
-                        <p>8.5</p>
+                        <p>6.5</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="movie-item transition metal " data-category="transition">
+                  <div class="movie-item action romance" data-category="action">
                     <div class="movie-image">
-                      <img src="./images/movies/cave.jpg" alt="96-movie" />
+                      <img src="./images/movies/kgf.jpg" alt="96-movie" />
                     </div>
                     <div class="movie-title">
-                      <h3>'96 - True Love Story</h3>
+                      <h3>K.G.F - Chapter 1</h3>
                     </div>
                     <div class="about-movie">
                       <div class="movie-year">
@@ -391,22 +392,22 @@
                       </div>
                       <div class="movie-rating">
                         <a href="#"><i class="fas fa-star"></i></a>
-                        <p>8.5</p>
+                        <p>8.3</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="movie-item alkaline-earth metal " data-category="alkaline-earth">
+                  <div class="movie-item action romance crime" data-category="romance">
                     <div class="movie-image">
                       <img src="./images/movies/ghajini.jpg" alt="96-movie" />
                     </div>
                     <div class="movie-title">
-                      <h3>'96 - True Love Story</h3>
+                      <h3>Ghajini - True Love Story</h3>
                     </div>
                     <div class="about-movie">
                       <div class="movie-year">
-                        <p>2018</p>
+                        <p>2008</p>
                       </div>
                       <div class="movie-icon">
                         <a href="#"><i class="fas fa-heart"></i></a>
@@ -414,22 +415,22 @@
                       </div>
                       <div class="movie-rating">
                         <a href="#"><i class="fas fa-star"></i></a>
-                        <p>8.5</p>
+                        <p>7.4</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="movie-item transition metal " data-category="transition">
+                  <div class="movie-item biography drama crime documentary" data-category="transition">
                     <div class="movie-image">
                       <img src="./images/movies/jai-bhim.jpg" alt="96-movie" />
                     </div>
                     <div class="movie-title">
-                      <h3>'96 - True Love Story</h3>
+                      <h3>Jai Bhim - A Lawyer</h3>
                     </div>
                     <div class="about-movie">
                       <div class="movie-year">
-                        <p>2018</p>
+                        <p>2021</p>
                       </div>
                       <div class="movie-icon">
                         <a href="#"><i class="fas fa-heart"></i></a>
@@ -437,7 +438,7 @@
                       </div>
                       <div class="movie-rating">
                         <a href="#"><i class="fas fa-star"></i></a>
-                        <p>8.5</p>
+                        <p>9.4</p>
                       </div>
                     </div>
                   </div>

@@ -1,13 +1,7 @@
 #trendsNow {
   width: 100%;
-  height: 1065px;
+  height: 1130px;
   background: $black;
-
-  .kallays-ads {
-    width: 100%;
-    text-align: center;
-    padding: 50px 0;
-  }
 
   .trending-movie {
     h3 {
@@ -15,6 +9,20 @@
       text-transform: uppercase;
       margin: 0;
       padding-bottom: 35px;
+    }
+    .load-more{
+      text-align: center;
+      .movie-btn-two{
+        @include buttonStyle(14px 22px, $tundora, $white);
+        @include fontStyle(12px, '', 400);
+        text-transform: uppercase;
+        border: 1px solid $tundora;
+        margin-right: 25px;
+      
+        i {
+          padding-right: 10px;
+        }
+      }
     }
 
     .movies-isotope {
@@ -130,4 +138,10 @@
       }
     }
   }
+}
+
+.kallays-ads {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
 }

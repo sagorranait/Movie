@@ -73,3 +73,43 @@
     }
   }
 }
+
+#bestMovie{
+  @include backgroundImage('../images/best-movie.png');
+  position: relative;
+  height: 600px;
+  padding: 7.6% 0;
+
+  &::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: $black;
+    opacity: 0.8;
+  }
+
+  .movie-description{
+    position: relative;
+    height: auto;
+
+    .movie-short-description{
+      width: 400px;
+    }
+  }
+}
+
+.single-part{
+  width: 100%;
+  height: 530px;
+  padding: 30px 0;
+  @include backgroundImage('../images/single-movie-bg1.png');
+}
+
+#movieBlogs{
+  width: 100%;
+  height: 1365px;
+  background: $mirage;
+}

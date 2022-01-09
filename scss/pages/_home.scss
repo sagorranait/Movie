@@ -112,4 +112,78 @@
   width: 100%;
   height: 1365px;
   background: $mirage;
+
+  .blogs-area{
+    .blog-top{
+      width: 100%;
+      height: 520px;
+      .blog-left{
+        width: 100%;
+        height: 100%;
+        .blog-image{
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          
+          img{
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+
+        .blog-shotContent{
+          h2{
+            @include fontStyle(35px, $white, 600);
+            text-transform: uppercase;
+            padding: 55px 0 20px;
+          }
+          p{
+            @include fontStyle(14px, $silver, 300);
+            padding-bottom: 5px;
+          }
+          a{
+            @include fontStyle(14px, $white, 300);
+            text-decoration: none;
+            i{
+              @include fontStyle(12px, $white, 300);
+              padding-left: 5px;
+            }
+          }
+        }
+      }
+
+      .blog-right{
+        border-left: 1px solid $tundora;
+        height: 100%;
+        padding-left: 35px;
+        .blog-item{
+          width: 100%;
+          @include displayFlex(flex, center, center, row);
+          padding: 30px 0 0px;
+          .blogItem-image{
+            width: 85px;
+            height: 85px;
+            overflow: hidden;
+            margin-right: 25px;
+            img{
+              width: 100%;
+              object-fit: cover;
+              object-position: center;
+            }
+          }
+          .blogItem-content{
+            p{
+              @include fontStyle(14px, $white, 600);
+              margin: 0;
+            }
+            a{
+              @include fontStyle(12px, $tundora, 600);
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
 }

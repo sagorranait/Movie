@@ -136,7 +136,7 @@
           h2{
             @include fontStyle(35px, $white, 600);
             text-transform: uppercase;
-            padding: 55px 0 20px;
+            padding: 55px 0 30px;
           }
           p{
             @include fontStyle(14px, $silver, 300);
@@ -181,6 +181,38 @@
               @include fontStyle(12px, $tundora, 600);
               text-decoration: none;
             }
+          }
+        }
+      }
+    }
+
+    .blog-bottom{
+      padding-top: 80px;
+      .blog-items{
+        width: 100%;
+        position: relative;
+        .blogItems-image{
+          width: 100%;
+          height: 400px;
+          overflow: hidden;
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+          }
+        }
+
+        .blogItems-content{
+          width: 100%;
+          padding: 20px 10px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.7);
+          h3{
+            @include fontStyle(16px, $white, 600);
+            margin: 0;
           }
         }
       }

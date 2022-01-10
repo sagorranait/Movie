@@ -111,7 +111,7 @@
 #movieBlogs{
   width: 100%;
   height: 1365px;
-  background: $mirage;
+  background: $pearl;
 
   .blogs-area{
     .blog-top{
@@ -205,15 +205,32 @@
 
         .blogItems-content{
           width: 100%;
-          padding: 20px 10px;
+          padding: 10px;
           position: absolute;
           bottom: 0;
           left: 0;
           background: rgba(0, 0, 0, 0.7);
           h3{
             @include fontStyle(16px, $white, 600);
+            line-height: 24px;
             margin: 0;
           }
+        }
+      }
+    }
+
+    .load-more{
+      padding-top: 55px;
+      text-align: center;
+      .movie-btn-two{
+        @include buttonStyle(14px 22px, $mirage, $white);
+        @include fontStyle(12px, '', 400);
+        text-transform: uppercase;
+        border: 1px solid $mirage;
+        margin-right: 25px;
+      
+        i {
+          padding-right: 10px;
         }
       }
     }

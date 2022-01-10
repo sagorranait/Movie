@@ -137,7 +137,7 @@
 #movieBlogs {
   width: 100%;
   height: 1365px;
-  background: #15202b;
+  background: #020d18;
 }
 
 #movieBlogs .blogs-area .blog-top {
@@ -272,7 +272,7 @@
 
 #movieBlogs .blogs-area .blog-bottom .blog-items .blogItems-content {
   width: 100%;
-  padding: 20px 10px;
+  padding: 10px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -283,7 +283,30 @@
   color: #fff;
   font-size: 16px;
   font-weight: 600;
+  line-height: 24px;
   margin: 0;
+}
+
+#movieBlogs .blogs-area .load-more {
+  padding-top: 55px;
+  text-align: center;
+}
+
+#movieBlogs .blogs-area .load-more .movie-btn-two {
+  color: #fff;
+  background: #15202b;
+  padding: 14px 22px;
+  border-radius: 50px;
+  color: "";
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 1px solid #15202b;
+  margin-right: 25px;
+}
+
+#movieBlogs .blogs-area .load-more .movie-btn-two i {
+  padding-right: 10px;
 }
 
 .kallays-hero {

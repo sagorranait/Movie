@@ -20,6 +20,11 @@
   opacity: 0;
 }
 
+#topcontrol {
+  bottom: 30px !important;
+  right: 30px !important;
+}
+
 /*
  Website Name: KALLYAS - Watch Unlimited Movie
  Author: SAGOR RANA
@@ -56,6 +61,7 @@
   color: #b0b0b0;
   font-size: 14px;
   font-weight: 300;
+  margin: 0;
   text-transform: uppercase;
 }
 
@@ -168,6 +174,7 @@
   color: #fff;
   font-size: 35px;
   font-weight: 600;
+  margin: 0;
   text-transform: uppercase;
   padding: 55px 0 30px;
 }
@@ -176,6 +183,7 @@
   color: #b0b0b0;
   font-size: 14px;
   font-weight: 300;
+  margin: 0;
   padding-bottom: 5px;
 }
 
@@ -183,6 +191,7 @@
   color: #fff;
   font-size: 14px;
   font-weight: 300;
+  margin: 0;
   text-decoration: none;
 }
 
@@ -190,6 +199,7 @@
   color: #fff;
   font-size: 12px;
   font-weight: 300;
+  margin: 0;
   padding-left: 5px;
 }
 
@@ -214,7 +224,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 30px 0 0px;
+  padding: 37px 0 0px;
 }
 
 #movieBlogs .blogs-area .blog-top .blog-right .blog-item .blogItem-image {
@@ -237,12 +247,14 @@
   font-size: 14px;
   font-weight: 600;
   margin: 0;
+  margin: 0;
 }
 
 #movieBlogs .blogs-area .blog-top .blog-right .blog-item .blogItem-content a {
   color: #4c4c4c;
   font-size: 12px;
   font-weight: 600;
+  margin: 0;
   text-decoration: none;
 }
 
@@ -283,6 +295,7 @@
   color: #fff;
   font-size: 16px;
   font-weight: 600;
+  margin: 0;
   line-height: 24px;
   margin: 0;
 }
@@ -300,6 +313,7 @@
   color: "";
   font-size: 12px;
   font-weight: 400;
+  margin: 0;
   text-transform: uppercase;
   border: 1px solid #15202b;
   margin-right: 25px;
@@ -307,6 +321,108 @@
 
 #movieBlogs .blogs-area .load-more .movie-btn-two i {
   padding-right: 10px;
+}
+
+#kallyasFooter {
+  width: 100%;
+  height: 450px;
+  background: #000B15;
+  padding: 55px 0;
+}
+
+#kallyasFooter .footer-about .logo img {
+  padding-bottom: 30px;
+}
+
+#kallyasFooter .footer-about .logo p {
+  color: #b0b0b0;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+}
+
+#kallyasFooter .footer-about .logo p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#kallyasFooter .footer-about .partners {
+  padding-top: 40px;
+}
+
+#kallyasFooter .footer-about .partners h3 {
+  color: #b0b0b0;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+#kallyasFooter .footer-about .partners .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 50px;
+}
+
+#kallyasFooter .footer-about .partners .stars .star {
+  width: 40px;
+  height: 40px;
+  background: #212121;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+#kallyasFooter .footer-about .partners .stars .star i {
+  color: #b0b0b0;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 40px;
+}
+
+#kallyasFooter .footer-about .social-media i {
+  color: #b0b0b0;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+  padding-right: 15px;
+}
+
+#kallyasFooter .footer-links h3 {
+  color: #b0b0b0;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 22px;
+}
+
+#kallyasFooter .footer-links .links a {
+  color: #656565;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  text-decoration: none;
+  padding-bottom: 20px;
+  padding-bottom: 10px;
+  display: block;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+#kallyasFooter .footer-links .links a:hover {
+  color: #fff;
 }
 
 .kallays-hero {
@@ -369,6 +485,7 @@
   color: #fff;
   font-size: 14px;
   font-weight: 400;
+  margin: 0;
   text-transform: uppercase;
 }
 
@@ -409,6 +526,7 @@
   font-size: 40px;
   font-weight: 600;
   margin: 0;
+  margin: 0;
   text-transform: uppercase;
 }
 
@@ -424,6 +542,7 @@
   color: #b0b0b0;
   font-size: 14px;
   font-weight: 300;
+  margin: 0;
   line-height: 23px;
   margin: 0;
 }
@@ -440,6 +559,7 @@
   color: "";
   font-size: 12px;
   font-weight: 400;
+  margin: 0;
   text-transform: uppercase;
   border: 1px solid #f10e1f;
   margin-right: 25px;
@@ -597,6 +717,7 @@
   color: #b0b0b0;
   font-size: 14px;
   font-weight: 300;
+  margin: 0;
   text-transform: uppercase;
   margin: 0;
   padding-bottom: 35px;
@@ -614,6 +735,7 @@
   color: "";
   font-size: 12px;
   font-weight: 400;
+  margin: 0;
   text-transform: uppercase;
   border: 1px solid #4c4c4c;
   margin-right: 25px;
@@ -634,6 +756,7 @@
   color: #fff;
   font-size: 12px;
   font-weight: 300;
+  margin: 0;
   background: #15202b;
   border: 1px solid #15202b;
   padding: 5px 11px;
@@ -694,6 +817,7 @@
   color: #fff;
   font-size: 14px;
   font-weight: 600;
+  margin: 0;
   text-transform: none;
   padding: 0;
   margin: 0;
@@ -724,6 +848,7 @@
   font-size: 14px;
   font-weight: 600;
   margin: 0;
+  margin: 0;
 }
 
 #trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-icon {
@@ -738,6 +863,7 @@
   color: #4c4c4c;
   font-size: 14px;
   font-weight: 600;
+  margin: 0;
   margin: 0;
 }
 
@@ -770,12 +896,14 @@
   font-size: 14px;
   font-weight: 600;
   margin: 0;
+  margin: 0;
 }
 
 #trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-rating p {
   color: #f4b01e;
   font-size: 14px;
   font-weight: 600;
+  margin: 0;
   margin: 0;
 }
 
@@ -790,6 +918,7 @@
   color: #fff;
   font-size: 14px;
   font-weight: 300;
+  margin: 0;
   padding-right: 37px !important;
 }
 

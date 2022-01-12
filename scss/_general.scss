@@ -13,6 +13,11 @@
   opacity: 0;
 }
 
+#topcontrol{
+  bottom: 30px !important;
+  right: 30px !important;
+}
+
 // background image mixin
 @mixin backgroundImage($url) {
   background-image: url($url);
@@ -26,6 +31,7 @@
   color: $color;
   font-size: $size;
   font-weight: $weight;
+  margin: 0;
 }
 
 // Button Style

@@ -427,6 +427,32 @@
   color: #fff;
 }
 
+.kallays-mylist {
+  position: relative;
+  padding-top: 75px;
+}
+
+.kallays-mylist h3 {
+  color: #b0b0b0;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.kallays-mylist .movie-item {
+  margin: 0 15px 40px 0;
+}
+
+.kallays-mylist .movie-item .movie-icon .listed i {
+  color: #f10e1f;
+}
+
+.kallays-mylist .movie-item .movie-icon .watched i {
+  color: #f10e1f;
+}
+
 .kallays-hero {
   position: relative;
   z-index: 1;

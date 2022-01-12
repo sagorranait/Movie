@@ -1,0 +1,27 @@
+.kallays-mylist{
+  position: relative;
+  padding-top: 75px;
+  h3{
+    @include fontStyle(14px, $silver, 400);
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+
+  .movie-item {
+    margin: 0 15px 40px 0;
+
+    .movie-icon{
+      .listed{
+        i{
+          color: $red;
+        }
+      }
+
+      .watched{
+        i{
+          color: $red;
+        }
+      }
+    }
+  }
+}

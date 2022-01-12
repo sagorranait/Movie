@@ -1,6 +1,6 @@
 #trendsNow {
   width: 100%;
-  height: 1130px;
+  height: 1185px;
   background: $black;
 
   .trending-movie {
@@ -56,84 +56,6 @@
           position: absolute;
           top: 3px;
           right: -35px;
-        }
-      }
-
-      .movie-item {
-        width: 220px;
-        margin: 0 15px 70px 0;
-        .movie-image {
-          width: 100%;
-          height: 196px;
-          overflow: hidden;
-          position: relative;
-
-          &::before {
-            content: '';
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            background: $black;
-            opacity: 0.4;
-          }
-          img {
-            width: 100%;
-          }
-        }
-
-        .movie-title {
-          padding: 25px 0 20px;
-          h3 {
-            @include fontStyle(14px, $white, 600);
-            text-transform: none;
-            padding: 0;
-            margin: 0;
-          }
-        }
-
-        .about-movie {
-          @include displayFlex(flex, left, start, row);
-          .movie-year {
-            width: 118px;
-            p {
-              @include fontStyle(14px, $tundora, 600);
-              margin: 0;
-            }
-          }
-
-          .movie-icon {
-            width: 60px;
-            a {
-              padding-right: 10px;
-              i {
-                @include fontStyle(14px, $tundora, 600);
-                margin: 0;
-              }
-            }
-          }
-
-          .movie-rating {
-            @include displayFlex(flex, center, center, row);
-            a {
-              padding-right: 6px;
-
-              &:last-child {
-                padding-right: 0;
-              }
-
-              i {
-                @include fontStyle(14px, $buttercup, 600);
-                margin: 0;
-              }
-            }
-
-            p {
-              @include fontStyle(14px, $buttercup, 600);
-              margin: 0;
-            }
-          }
         }
       }
     }

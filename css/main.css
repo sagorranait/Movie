@@ -92,12 +92,14 @@
   position: absolute;
   top: 110px;
   left: -45px;
+  cursor: pointer;
 }
 
 #kallaysHeader .kallays-popular-serials .serials-slider .slick-next {
   position: absolute;
   top: 110px;
   right: -45px;
+  cursor: pointer;
 }
 
 #bestMovie {
@@ -709,7 +711,7 @@
 
 #trendsNow {
   width: 100%;
-  height: 1130px;
+  height: 1185px;
   background: #000000;
 }
 
@@ -782,19 +784,25 @@
   right: -35px;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item {
+.kallays-ads {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.movie-item {
   width: 220px;
   margin: 0 15px 70px 0;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .movie-image {
+.movie-item .movie-image {
   width: 100%;
   height: 196px;
   overflow: hidden;
   position: relative;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .movie-image::before {
+.movie-item .movie-image::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -805,15 +813,15 @@
   opacity: 0.4;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .movie-image img {
+.movie-item .movie-image img {
   width: 100%;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .movie-title {
+.movie-item .movie-title {
   padding: 25px 0 20px;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .movie-title h3 {
+.movie-item .movie-title h3 {
   color: #fff;
   font-size: 14px;
   font-weight: 600;
@@ -823,7 +831,7 @@
   margin: 0;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie {
+.movie-item .about-movie {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -839,11 +847,11 @@
           flex-direction: row;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-year {
+.movie-item .about-movie .movie-year {
   width: 118px;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-year p {
+.movie-item .about-movie .movie-year p {
   color: #4c4c4c;
   font-size: 14px;
   font-weight: 600;
@@ -851,15 +859,15 @@
   margin: 0;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-icon {
+.movie-item .about-movie .movie-icon {
   width: 60px;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-icon a {
+.movie-item .about-movie .movie-icon a {
   padding-right: 10px;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-icon a i {
+.movie-item .about-movie .movie-icon a i {
   color: #4c4c4c;
   font-size: 14px;
   font-weight: 600;
@@ -867,7 +875,7 @@
   margin: 0;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-rating {
+.movie-item .about-movie .movie-rating {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -883,15 +891,15 @@
           flex-direction: row;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-rating a {
+.movie-item .about-movie .movie-rating a {
   padding-right: 6px;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-rating a:last-child {
+.movie-item .about-movie .movie-rating a:last-child {
   padding-right: 0;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-rating a i {
+.movie-item .about-movie .movie-rating a i {
   color: #f4b01e;
   font-size: 14px;
   font-weight: 600;
@@ -899,18 +907,12 @@
   margin: 0;
 }
 
-#trendsNow .trending-movie .movies-isotope .movie-item .about-movie .movie-rating p {
+.movie-item .about-movie .movie-rating p {
   color: #f4b01e;
   font-size: 14px;
   font-weight: 600;
   margin: 0;
   margin: 0;
-}
-
-.kallays-ads {
-  width: 100%;
-  text-align: center;
-  padding: 50px 0;
 }
 
 /* Navbar Area Start */

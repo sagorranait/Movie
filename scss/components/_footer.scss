@@ -1,0 +1,74 @@
+#kallyasFooter {
+  width: 100%;
+  height: 450px;
+  background: $charcoal;
+  padding: 55px 0;
+  .footer-about {
+    .logo {
+      img {
+        padding-bottom: 30px;
+      }
+      p {
+        @include fontStyle(14px, $silver, 300);
+        a {
+          text-decoration: none;
+          color: $white;
+        }
+      }
+    }
+
+    .partners {
+      padding-top: 40px;
+      h3 {
+        @include fontStyle(14px, $silver, 300);
+        padding-bottom: 15px;
+      }
+
+      .stars {
+        @include displayFlex(flex, center, start, row);
+        padding-bottom: 50px;
+        .star {
+          width: 40px;
+          height: 40px;
+          background: $shaft;
+          border-radius: 50px;
+          text-align: center;
+          margin-right: 15px;
+          i {
+            @include fontStyle(18px, $silver, 400);
+            line-height: 40px;
+          }
+        }
+      }
+    }
+
+    .social-media {
+      i {
+        @include fontStyle(25px, $silver, 400);
+        padding-right: 15px;
+      }
+    }
+  }
+
+  .footer-links {
+    h3 {
+      @include fontStyle(14px, $silver, 600);
+      padding-bottom: 22px;
+    }
+
+    .links {
+      a {
+        @include fontStyle(14px, $gray, 300);
+        text-decoration: none;
+        padding-bottom: 20px;
+        padding-bottom: 10px;
+        display: block;
+        transition: 0.2s all;
+
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+}

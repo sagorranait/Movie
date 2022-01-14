@@ -76,13 +76,13 @@
   }
 }
 
-#bestMovie{
+#bestMovie {
   @include backgroundImage('../images/best-movie.png');
   position: relative;
   height: 600px;
   padding: 7.6% 0;
 
-  &::before{
+  &::before {
     content: '';
     width: 100%;
     height: 100%;
@@ -93,61 +93,61 @@
     opacity: 0.8;
   }
 
-  .movie-description{
+  .movie-description {
     position: relative;
     height: auto;
 
-    .movie-short-description{
+    .movie-short-description {
       width: 400px;
     }
   }
 }
 
-.single-part{
+.single-part {
   width: 100%;
   height: 530px;
   padding: 30px 0;
   @include backgroundImage('../images/single-movie-bg1.png');
 }
 
-#movieBlogs{
+#movieBlogs {
   width: 100%;
   height: 1365px;
   background: $pearl;
 
-  .blogs-area{
-    .blog-top{
+  .blogs-area {
+    .blog-top {
       width: 100%;
       height: 520px;
-      .blog-left{
+      .blog-left {
         width: 100%;
         height: 100%;
-        .blog-image{
+        .blog-image {
           width: 100%;
           height: 100%;
           overflow: hidden;
-          
-          img{
+
+          img {
             width: 100%;
             object-fit: cover;
             object-position: center;
           }
         }
 
-        .blog-shotContent{
-          h2{
+        .blog-shotContent {
+          h2 {
             @include fontStyle(35px, $white, 600);
             text-transform: uppercase;
             padding: 55px 0 30px;
           }
-          p{
+          p {
             @include fontStyle(14px, $silver, 300);
             padding-bottom: 5px;
           }
-          a{
+          a {
             @include fontStyle(14px, $white, 300);
             text-decoration: none;
-            i{
+            i {
               @include fontStyle(12px, $white, 300);
               padding-left: 5px;
             }
@@ -155,31 +155,31 @@
         }
       }
 
-      .blog-right{
+      .blog-right {
         border-left: 1px solid $tundora;
         height: 100%;
         padding-left: 35px;
-        .blog-item{
+        .blog-item {
           width: 100%;
           @include displayFlex(flex, center, center, row);
           padding: 37px 0 0px;
-          .blogItem-image{
+          .blogItem-image {
             width: 85px;
             height: 85px;
             overflow: hidden;
             margin-right: 25px;
-            img{
+            img {
               width: 100%;
               object-fit: cover;
               object-position: center;
             }
           }
-          .blogItem-content{
-            p{
+          .blogItem-content {
+            p {
               @include fontStyle(14px, $white, 600);
               margin: 0;
             }
-            a{
+            a {
               @include fontStyle(12px, $tundora, 600);
               text-decoration: none;
             }
@@ -188,16 +188,16 @@
       }
     }
 
-    .blog-bottom{
+    .blog-bottom {
       padding-top: 80px;
-      .blog-items{
+      .blog-items {
         width: 100%;
         position: relative;
-        .blogItems-image{
+        .blogItems-image {
           width: 100%;
           height: 400px;
           overflow: hidden;
-          img{
+          img {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -205,14 +205,14 @@
           }
         }
 
-        .blogItems-content{
+        .blogItems-content {
           width: 100%;
           padding: 10px;
           position: absolute;
           bottom: 0;
           left: 0;
           background: rgba(0, 0, 0, 0.7);
-          h3{
+          h3 {
             @include fontStyle(16px, $white, 600);
             line-height: 24px;
             margin: 0;
@@ -221,93 +221,18 @@
       }
     }
 
-    .load-more{
+    .load-more {
       padding-top: 55px;
       text-align: center;
-      .movie-btn-two{
+      .movie-btn-two {
         @include buttonStyle(14px 22px, $mirage, $white);
         @include fontStyle(12px, '', 400);
         text-transform: uppercase;
         border: 1px solid $mirage;
         margin-right: 25px;
-      
+
         i {
           padding-right: 10px;
-        }
-      }
-    }
-  }
-}
-
-#kallyasFooter{
-  width: 100%;
-  height: 450px;
-  background: $charcoal;
-  padding: 55px 0;
-  .footer-about{
-    .logo{
-      img{
-        padding-bottom: 30px;
-      }
-      p{
-        @include fontStyle(14px, $silver, 300);
-        a{
-          text-decoration: none;
-          color: $white;
-        }
-      }
-    }
-
-    .partners{
-      padding-top: 40px;
-      h3{
-        @include fontStyle(14px, $silver, 300);
-        padding-bottom: 15px;
-      }
-
-      .stars{
-        @include displayFlex(flex, center, start, row);
-        padding-bottom: 50px;
-        .star{
-          width: 40px;
-          height: 40px;
-          background: $shaft;
-          border-radius: 50px;
-          text-align: center;
-          margin-right: 15px;
-          i{
-            @include fontStyle(18px, $silver, 400);
-            line-height: 40px;
-          }
-        }
-      }
-    }
-
-    .social-media{
-      i{
-        @include fontStyle(25px, $silver, 400);
-        padding-right: 15px;
-      }
-    }
-  }
-
-  .footer-links{
-    h3{
-      @include fontStyle(14px, $silver, 600);
-      padding-bottom: 22px;
-    }
-
-    .links{
-      a{
-        @include fontStyle(14px, $gray, 300);
-        text-decoration: none;
-        padding-bottom: 20px;
-        padding-bottom: 10px;
-        display: block;
-        transition: 0.2s all;
-
-        &:hover{
-          color: $white;
         }
       }
     }

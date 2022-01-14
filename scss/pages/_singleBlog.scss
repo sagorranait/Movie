@@ -18,4 +18,75 @@
 
 .kallays-singleBlog{
   position: relative;
+  padding-top: 50px;
+
+  .singleBlog-content{
+    width: 100%;
+    .singleBlog-image{
+      width: 100%;
+      height: 500px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+
+    .singleBlog-title{
+      padding-top: 45px;
+      h2{
+        @include fontStyle(35px, $white, 600);
+        text-transform: uppercase;
+      }
+    }
+
+    .singleBlog-links{
+      padding: 35px 0;
+      @include displayFlex(flex, center, start, row);
+      .links{
+        padding-right: 15px;
+        @include fontStyle(16px, $white, 600);
+        i{
+          padding-right: 8px;
+        }
+      }
+    }
+
+    .singleBlog-text{
+      padding-bottom: 50px;
+      p{
+        @include fontStyle(14px, $silver, 400);
+        padding-bottom: 10px;
+      }
+    }
+
+    .singleBlog-share{
+      padding-bottom: 50px;
+      h3{
+        @include fontStyle(14px, $white, 300);
+        text-transform: uppercase;
+      }
+
+      .share{
+        padding-top: 20px;
+        i{
+          @include fontStyle(16px, $white, 300);
+          padding-right: 15px;
+        }
+      }
+    }
+
+    .singleBlog-nextPre{
+      border-top: 1px solid $tundora;
+      @include displayFlex(flex, center, space-between, row);
+
+      .next{
+        width: 340px;
+      }
+      .pre{
+        @extend .next;
+      }
+    }
+  }
 }

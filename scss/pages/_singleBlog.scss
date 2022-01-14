@@ -1,0 +1,21 @@
+#kallayHeader{
+  width: 100%;
+  height: 1550px;
+  position: relative;
+  background: $pearl;
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    @include backgroundImage('../images/header-background.png');
+    
+  }
+}
+
+.kallays-singleBlog{
+  position: relative;
+}

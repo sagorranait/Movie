@@ -13,65 +13,65 @@
     right: 0;
     background: -moz-linear-gradient(
       top,
-      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.4) 0%,
       rgba(0, 0, 0, 0) 50%,
-      rgba(0, 0, 0, 0.3) 100%
+      rgba(0, 0, 0, 0.5) 100%
     );
     background: -webkit-linear-gradient(
       top,
-      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.4) 0%,
       rgba(0, 0, 0, 0) 50%,
-      rgba(0, 0, 0, 0.3) 100%
+      rgba(0, 0, 0, 0.5) 100%
     );
     background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.4) 0%,
       rgba(0, 0, 0, 0) 50%,
-      rgba(0, 0, 0, 0.3) 100%
+      rgba(0, 0, 0, 0.5) 100%
     );
   }
+}
 
-  .kallays-popular-serials {
-    padding-top: 30px;
+.kallays-popular-serials {
+  padding-top: 30px;
 
-    h3 {
-      @include fontStyle(14px, $silver, 300);
-      text-transform: uppercase;
+  h3 {
+    @include fontStyle(14px, $silver, 300);
+    text-transform: uppercase;
+  }
+
+  .serials-slider {
+    width: 100%;
+    height: 222px;
+    margin-top: 25px;
+    position: relative;
+
+    .serial {
+      width: 220px !important;
+      height: 220px;
+      background-color: $red;
+      margin-right: 15px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+      }
     }
 
-    .serials-slider {
-      width: 100%;
-      height: 222px;
-      margin-top: 25px;
-      position: relative;
+    .slick-prev {
+      position: absolute;
+      top: 110px;
+      left: -45px;
+      cursor: pointer;
+    }
 
-      .serial {
-        width: 220px !important;
-        height: 220px;
-        background-color: $red;
-        margin-right: 15px;
-
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          object-position: center top;
-        }
-      }
-
-      .slick-prev {
-        position: absolute;
-        top: 110px;
-        left: -45px;
-        cursor: pointer;
-      }
-
-      .slick-next {
-        position: absolute;
-        top: 110px;
-        right: -45px;
-        cursor: pointer;
-      }
+    .slick-next {
+      position: absolute;
+      top: 110px;
+      right: -45px;
+      cursor: pointer;
     }
   }
 }
@@ -159,32 +159,6 @@
         border-left: 1px solid $tundora;
         height: 100%;
         padding-left: 35px;
-        .blog-item {
-          width: 100%;
-          @include displayFlex(flex, center, center, row);
-          padding: 37px 0 0px;
-          .blogItem-image {
-            width: 85px;
-            height: 85px;
-            overflow: hidden;
-            margin-right: 25px;
-            img {
-              width: 100%;
-              object-fit: cover;
-              object-position: center;
-            }
-          }
-          .blogItem-content {
-            p {
-              @include fontStyle(14px, $white, 600);
-              margin: 0;
-            }
-            a {
-              @include fontStyle(12px, $tundora, 600);
-              text-decoration: none;
-            }
-          }
-        }
       }
     }
 
@@ -212,10 +186,11 @@
           bottom: 0;
           left: 0;
           background: rgba(0, 0, 0, 0.7);
-          h3 {
+          a {
             @include fontStyle(16px, $white, 600);
             line-height: 24px;
             margin: 0;
+            text-decoration: none;
           }
         }
       }

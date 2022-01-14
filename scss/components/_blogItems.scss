@@ -1,0 +1,26 @@
+.blog-item {
+  width: 100%;
+  @include displayFlex(flex, center, center, row);
+  padding: 37px 0 0px;
+  .blogItem-image {
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    margin-right: 25px;
+    img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .blogItem-content {
+    p {
+      @include fontStyle(14px, $white, 600);
+      margin: 0;
+    }
+    a {
+      @include fontStyle(12px, $tundora, 600);
+      text-decoration: none;
+    }
+  }
+}

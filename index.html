@@ -1,480 +1,807 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KALLYAS - Watch Unlimited Movie</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KALLYAS - Watch Unlimited Movie</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-  <link rel="stylesheet" href="./css/slick.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/main.css" />
-</head>
-
-<body>
-  <header id="kallaysHeader">
-    <div class="container">
-      <div class="kallays-navbar">
-        <nav class="navbar navbar-expand-lg navbar-drack">
+  <body>
+    <header id="kallaysHeader">
+      <div class="container">
+        <div class="kallays-navbar">
+          <nav class="navbar navbar-expand-lg navbar-drack">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Kallays-Logo" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Serials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Movies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Favorites</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./my-list.html">My List</a>
+                  </li>
+                  <form class="navbar-search">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search..."
+                      aria-label="Search"
+                    />
+                    <button class="search-icon" type="submit">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </form>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Login</a>
+                  </li>
+                  <li class="nav-item kallyas-btn">
+                    <a href="#" class="nav-link">Sign Up</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="kallays-hero">
           <div class="container">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="Kallays-Logo" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Serials</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Movies</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Favorites</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./my-list.html">My List</a>
-                </li>
-                <form class="navbar-search">
-                  <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" />
-                  <button class="search-icon" type="submit">
-                    <i class="fas fa-search"></i>
-                  </button>
-                </form>
-                <li class="nav-item">
-                  <a href="#" class="nav-link">Login</a>
-                </li>
-                <li class="nav-item kallyas-btn">
-                  <a href="#" class="nav-link">Sign Up</a>
-                </li>
-              </ul>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-xxl-6">
+                <div class="movie-description">
+                  <div class="movie-tags">
+                    <div class="tag tag-year">
+                      <p>2021</p>
+                    </div>
+                    <div class="tag tag-action">
+                      <p>Action</p>
+                    </div>
+                    <div class="tag tag-adventure">
+                      <p>Adventure</p>
+                    </div>
+                  </div>
+                  <div class="movie-title">
+                    <h1>Pushpa: The Rise - Part 1</h1>
+                  </div>
+                  <div class="movie-short-description">
+                    <p>
+                      Story of Pushpa Raj, a lorry driver in Seshachalam forests
+                      of South India, set in the backdrop of red sandalwood
+                      smuggling. Red Sandalwood is endemic to South-Eastern
+                      Ghats (mountain range) of India.
+                    </p>
+                  </div>
+                  <div class="movie-buttons">
+                    <button class="movie-btn-one">
+                      <i class="fas fa-play"></i> Play Trailer
+                    </button>
+                    <button class="movie-btn-two">
+                      <i class="fas fa-heart"></i> Add to List
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-xxl-6">
+                <div class="movie-image">
+                  <img src="./images/movies/pushpa.png" alt="pushpa" />
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
+        </div>
+        <div class="kallays-popular-serials">
+          <h3>Popular Serials</h3>
+          <div class="serials-slider">
+            <div class="serial">
+              <img src="./images/movies/96.jpg" alt="96 Movie" />
+            </div>
+            <div class="serial">
+              <img src="./images/movies/bahubali.jpg" alt="96 Movie" />
+            </div>
+            <div class="serial">
+              <img src="./images/movies/rrr.jpg" alt="96 Movie" />
+            </div>
+            <div class="serial">
+              <img src="./images/movies/cave.jpg" alt="96 Movie" />
+            </div>
+            <div class="serial">
+              <img src="./images/movies/ghajini.jpg" alt="96 Movie" />
+            </div>
+            <div class="serial">
+              <img src="./images/movies/jai-bhim.jpg" alt="96 Movie" />
+            </div>
+            <div class="serial">
+              <img src="./images/movies/kgf.jpg" alt="96 Movie" />
+            </div>
+            <div class="serial">
+              <img src="./images/movies/Padmaavat.jpg" alt="96 Movie" />
+            </div>
+            <div class="serial">
+              <img src="./images/movies/radhe.jpg" alt="96 Movie" />
+            </div>
+            <div class="serial">
+              <img src="./images/movies/robot.jpg" alt="96 Movie" />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="kallays-hero">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-xxl-6">
-              <div class="movie-description">
-                <div class="movie-tags">
-                  <div class="tag tag-year">
-                    <p>2021</p>
+    </header>
+
+    <section id="singleMovie">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-xxl-6">
+            <div class="teaser-video">
+              <figure>
+                <video class="video">
+                  <source src="./images/videos/K.G.F.mp4" type="video/mp4" />
+                </video>
+                <div class="teaser-controls">
+                  <div class="teaser-play">
+                    <img
+                      class="video-play"
+                      src="./images/movies/play-button.png"
+                      alt="play"
+                    />
+                    <img
+                      class="video-push hide"
+                      src="./images/movies/pause.png"
+                      alt="push"
+                    />
                   </div>
-                  <div class="tag tag-action">
-                    <p>Action</p>
-                  </div>
-                  <div class="tag tag-adventure">
-                    <p>Adventure</p>
+                  <div class="teaser-buttom">
+                    <div class="teaser-bar">
+                      <div class="teaser-juice"></div>
+                    </div>
+                    <div class="teaser-sound">
+                      <img
+                        class="video-volume show"
+                        src="./images/movies/volume.png"
+                        alt="volume"
+                      />
+                      <img
+                        class="video-mute hide"
+                        src="./images/movies/mute.png"
+                        alt="mute"
+                      />
+                    </div>
                   </div>
                 </div>
-                <div class="movie-title">
-                  <h1>Pushpa: The Rise - Part 1</h1>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-xxl-6">
+            <div class="movie-description">
+              <div class="movie-tags right-align">
+                <div class="tag tag-year">
+                  <p>2021</p>
                 </div>
-                <div class="movie-short-description">
-                  <p>
-                    Story of Pushpa Raj, a lorry driver in Seshachalam forests
-                    of South India, set in the backdrop of red sandalwood
-                    smuggling. Red Sandalwood is endemic to South-Eastern
-                    Ghats (mountain range) of India.
-                  </p>
+                <div class="tag tag-action">
+                  <p>Action</p>
                 </div>
-                <div class="movie-buttons">
-                  <button class="movie-btn-one">
-                    <i class="fas fa-play"></i> Play Trailer
+                <div class="tag tag-adventure">
+                  <p>Adventure</p>
+                </div>
+              </div>
+              <div class="movie-title title-right">
+                <h1>K.G.F: Chapter 2</h1>
+              </div>
+              <div class="movie-short-description description-right">
+                <p>
+                  K.G.F: Chapter 2 is an upcoming Indian Kannada-language period
+                  drama action film written and directed by Prashanth Neel, and
+                  produced by Vijay Kiragandur under the banner Hombale Films.
+                  The second installment of the two-part series, it is a sequel
+                  to the 2018 film K.G.F: Chapter 1.
+                </p>
+              </div>
+              <div class="movie-buttons button-right">
+                <button class="movie-btn-one">
+                  <i class="fas fa-play"></i> Play Trailer
+                </button>
+                <button class="movie-btn-two">
+                  <i class="fas fa-heart"></i> Add to List
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trendsNow">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-xxl-12">
+            <div class="kallays-ads">
+              <img src="./images/ads.png" alt="ads" />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-xxl-12">
+            <div class="trending-movie">
+              <h3>Trends Now</h3>
+              <div class="movies-isotope">
+                <div id="filters" class="button-group">
+                  <button class="button is-checked" data-filter="*">
+                    All Movie
                   </button>
+                  <button class="button" data-filter=".action">Action</button>
+                  <button class="button" data-filter=".adventure">
+                    Adventure
+                  </button>
+                  <button class="button" data-filter=".romance">Romance</button>
+                  <button class="button" data-filter=".drama">Drama</button>
+                  <button class="button" data-filter=".comedy">Comedy</button>
+                  <button class="button" data-filter=".animation">
+                    Animation
+                  </button>
+                  <button class="button" data-filter=".biography:not(.romance)">
+                    Biography
+                  </button>
+                  <button class="button" data-filter=".crime:not(.romance)">
+                    Crime
+                  </button>
+                  <button class="button" data-filter=".history">History</button>
+                  <button class="button" data-filter=".war">War</button>
+                </div>
+                <div class="grid">
+                  <div class="row">
+                    <div class="col">
+                      <div
+                        class="movie-item romance drama biography"
+                        data-category="action"
+                      >
+                        <div class="movie-image">
+                          <img src="./images/movies/96.jpg" alt="96-movie" />
+                        </div>
+                        <div class="movie-title">
+                          <h3>'96 - True Love Story</h3>
+                        </div>
+                        <div class="about-movie">
+                          <div class="movie-year">
+                            <p>2018</p>
+                          </div>
+                          <div class="movie-icon">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                          </div>
+                          <div class="movie-rating">
+                            <a href="#"><i class="fas fa-star"></i></a>
+                            <p>8.5</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div
+                        class="movie-item action war adventure romance"
+                        data-category="action"
+                      >
+                        <div class="movie-image">
+                          <img
+                            src="./images/movies/bahubali.jpg"
+                            alt="bahubali-movie"
+                          />
+                        </div>
+                        <div class="movie-title">
+                          <h3>Baahubali - The Beginning</h3>
+                        </div>
+                        <div class="about-movie">
+                          <div class="movie-year">
+                            <p>2015</p>
+                          </div>
+                          <div class="movie-icon">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                          </div>
+                          <div class="movie-rating">
+                            <a href="#"><i class="fas fa-star"></i></a>
+                            <p>8</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div
+                        class="movie-item action drama adventure romance"
+                        data-category="action"
+                      >
+                        <div class="movie-image">
+                          <img
+                            src="./images/movies/pushpa.png"
+                            alt="pushpa-movie"
+                          />
+                        </div>
+                        <div class="movie-title">
+                          <h3>Pushpa - The Rise</h3>
+                        </div>
+                        <div class="about-movie">
+                          <div class="movie-year">
+                            <p>2021</p>
+                          </div>
+                          <div class="movie-icon">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                          </div>
+                          <div class="movie-rating">
+                            <a href="#"><i class="fas fa-star"></i></a>
+                            <p>8.1</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div
+                        class="movie-item drama history adventure romance comedy"
+                        data-category="drama"
+                      >
+                        <div class="movie-image">
+                          <img
+                            src="./images/movies/radhe.jpg"
+                            alt="radhe-movie"
+                          />
+                        </div>
+                        <div class="movie-title">
+                          <h3>Radhe Shyam</h3>
+                        </div>
+                        <div class="about-movie">
+                          <div class="movie-year">
+                            <p>2022</p>
+                          </div>
+                          <div class="movie-icon">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                          </div>
+                          <div class="movie-rating">
+                            <a href="#"><i class="fas fa-star"></i></a>
+                            <p>8</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div
+                        class="movie-item action animation comedy adventure"
+                        data-category="action"
+                      >
+                        <div class="movie-image">
+                          <img
+                            src="./images/movies/robot.jpg"
+                            alt="robot-movie"
+                          />
+                        </div>
+                        <div class="movie-title">
+                          <h3>Robot 2.0</h3>
+                        </div>
+                        <div class="about-movie">
+                          <div class="movie-year">
+                            <p>2018</p>
+                          </div>
+                          <div class="movie-icon">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                          </div>
+                          <div class="movie-rating">
+                            <a href="#"><i class="fas fa-star"></i></a>
+                            <p>6.2</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div
+                        class="movie-item action drama adventure comedy"
+                        data-category="action"
+                      >
+                        <div class="movie-image">
+                          <img src="./images/movies/rrr.jpg" alt="96-movie" />
+                        </div>
+                        <div class="movie-title">
+                          <h3>RRR - Return Receipt ...</h3>
+                        </div>
+                        <div class="about-movie">
+                          <div class="movie-year">
+                            <p>2021</p>
+                          </div>
+                          <div class="movie-icon">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                          </div>
+                          <div class="movie-rating">
+                            <a href="#"><i class="fas fa-star"></i></a>
+                            <p>8.4</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div
+                        class="movie-item action war crime comedy"
+                        data-category="action"
+                      >
+                        <div class="movie-image">
+                          <img src="./images/movies/war.jpg" alt="96-movie" />
+                        </div>
+                        <div class="movie-title">
+                          <h3>War - 2019</h3>
+                        </div>
+                        <div class="about-movie">
+                          <div class="movie-year">
+                            <p>2019</p>
+                          </div>
+                          <div class="movie-icon">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                          </div>
+                          <div class="movie-rating">
+                            <a href="#"><i class="fas fa-star"></i></a>
+                            <p>6.5</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div
+                        class="movie-item action romance"
+                        data-category="action"
+                      >
+                        <div class="movie-image">
+                          <img src="./images/movies/kgf.jpg" alt="96-movie" />
+                        </div>
+                        <div class="movie-title">
+                          <h3>K.G.F - Chapter 1</h3>
+                        </div>
+                        <div class="about-movie">
+                          <div class="movie-year">
+                            <p>2018</p>
+                          </div>
+                          <div class="movie-icon">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                          </div>
+                          <div class="movie-rating">
+                            <a href="#"><i class="fas fa-star"></i></a>
+                            <p>8.3</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div
+                        class="movie-item action romance crime comedy"
+                        data-category="romance"
+                      >
+                        <div class="movie-image">
+                          <img
+                            src="./images/movies/ghajini.jpg"
+                            alt="96-movie"
+                          />
+                        </div>
+                        <div class="movie-title">
+                          <h3>Ghajini - True Love Story</h3>
+                        </div>
+                        <div class="about-movie">
+                          <div class="movie-year">
+                            <p>2008</p>
+                          </div>
+                          <div class="movie-icon">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                          </div>
+                          <div class="movie-rating">
+                            <a href="#"><i class="fas fa-star"></i></a>
+                            <p>7.4</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div
+                        class="movie-item biography drama crime history"
+                        data-category="transition"
+                      >
+                        <div class="movie-image">
+                          <img
+                            src="./images/movies/jai-bhim.jpg"
+                            alt="96-movie"
+                          />
+                        </div>
+                        <div class="movie-title">
+                          <h3>Jai Bhim - A Lawyer</h3>
+                        </div>
+                        <div class="about-movie">
+                          <div class="movie-year">
+                            <p>2021</p>
+                          </div>
+                          <div class="movie-icon">
+                            <a href="#"><i class="fas fa-heart"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                          </div>
+                          <div class="movie-rating">
+                            <a href="#"><i class="fas fa-star"></i></a>
+                            <p>9.4</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="load-more">
                   <button class="movie-btn-two">
-                    <i class="fas fa-heart"></i> Add to List
+                    <i class="fas fa-plus"></i> Load More
                   </button>
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-xxl-6">
-              <div class="movie-image">
-                <img src="./images/movies/pushpa.png" alt="pushpa" />
-              </div>
-            </div>
           </div>
         </div>
       </div>
-      <div class="kallays-popular-serials">
-        <h3>Popular Serials</h3>
-        <div class="serials-slider">
-          <div class="serial">
-            <img src="./images/movies/96.jpg" alt="96 Movie" />
-          </div>
-          <div class="serial">
-            <img src="./images/movies/bahubali.jpg" alt="96 Movie" />
-          </div>
-          <div class="serial">
-            <img src="./images/movies/rrr.jpg" alt="96 Movie" />
-          </div>
-          <div class="serial">
-            <img src="./images/movies/cave.jpg" alt="96 Movie" />
-          </div>
-          <div class="serial">
-            <img src="./images/movies/ghajini.jpg" alt="96 Movie" />
-          </div>
-          <div class="serial">
-            <img src="./images/movies/jai-bhim.jpg" alt="96 Movie" />
-          </div>
-          <div class="serial">
-            <img src="./images/movies/kgf.jpg" alt="96 Movie" />
-          </div>
-          <div class="serial">
-            <img src="./images/movies/Padmaavat.jpg" alt="96 Movie" />
-          </div>
-          <div class="serial">
-            <img src="./images/movies/radhe.jpg" alt="96 Movie" />
-          </div>
-          <div class="serial">
-            <img src="./images/movies/robot.jpg" alt="96 Movie" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+    </section>
 
-  <section id="singleMovie">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-xxl-6">
-          <div class="teaser-video">
-            <figure>
-              <video class="video">
-                <source src="./images/videos/K.G.F.mp4" type="video/mp4" />
-              </video>
-              <div class="teaser-controls">
-                <div class="teaser-play">
-                  <img class="video-play" src="./images/movies/play-button.png" alt="play" />
-                  <img class="video-push hide" src="./images/movies/pause.png" alt="push" />
+    <section id="bestMovie">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-xxl-12">
+            <div class="movie-description">
+              <div class="movie-tags">
+                <div class="tag tag-year">
+                  <p>2021</p>
                 </div>
-                <div class="teaser-buttom">
-                  <div class="teaser-bar">
-                    <div class="teaser-juice"></div>
-                  </div>
-                  <div class="teaser-sound">
-                    <img class="video-volume show" src="./images/movies/volume.png" alt="volume" />
-                    <img class="video-mute hide" src="./images/movies/mute.png" alt="mute" />
-                  </div>
+                <div class="tag tag-action">
+                  <p>Action</p>
+                </div>
+                <div class="tag tag-adventure">
+                  <p>Adventure</p>
                 </div>
               </div>
-            </figure>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-xxl-6">
-          <div class="movie-description">
-            <div class="movie-tags right-align">
-              <div class="tag tag-year">
-                <p>2021</p>
+              <div class="movie-title">
+                <h1>Pushpa: The Rise - Part 1</h1>
               </div>
-              <div class="tag tag-action">
-                <p>Action</p>
+              <div class="movie-short-description">
+                <p>
+                  Story of Pushpa Raj, a lorry driver in Seshachalam forests of
+                  South India, set in the backdrop of red sandalwood smuggling.
+                  Red Sandalwood is endemic to South-Eastern Ghats (mountain
+                  range) of India.
+                </p>
               </div>
-              <div class="tag tag-adventure">
-                <p>Adventure</p>
+              <div class="movie-buttons">
+                <button class="movie-btn-one">
+                  <i class="fas fa-play"></i> Play Trailer
+                </button>
+                <button class="movie-btn-two">
+                  <i class="fas fa-heart"></i> Add to List
+                </button>
               </div>
-            </div>
-            <div class="movie-title title-right">
-              <h1>K.G.F: Chapter 2</h1>
-            </div>
-            <div class="movie-short-description description-right">
-              <p>
-                K.G.F: Chapter 2 is an upcoming Indian Kannada-language period
-                drama action film written and directed by Prashanth Neel, and
-                produced by Vijay Kiragandur under the banner Hombale Films.
-                The second installment of the two-part series, it is a sequel
-                to the 2018 film K.G.F: Chapter 1.
-              </p>
-            </div>
-            <div class="movie-buttons button-right">
-              <button class="movie-btn-one">
-                <i class="fas fa-play"></i> Play Trailer
-              </button>
-              <button class="movie-btn-two">
-                <i class="fas fa-heart"></i> Add to List
-              </button>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="trendsNow">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-xxl-12">
-          <div class="kallays-ads">
-            <img src="./images/ads.png" alt="ads" />
+    <section class="single-part">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-xxl-6">
+            <div class="teaser-video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/f_vbAtFSEc0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-xxl-6">
+            <div class="movie-description">
+              <div class="movie-tags right-align">
+                <div class="tag tag-year">
+                  <p>2021</p>
+                </div>
+                <div class="tag tag-action">
+                  <p>Action</p>
+                </div>
+                <div class="tag tag-adventure">
+                  <p>Adventure</p>
+                </div>
+              </div>
+              <div class="movie-title title-right">
+                <h1>RRR - Roudram Ranam Rudhiram</h1>
+              </div>
+              <div class="movie-short-description description-right">
+                <p>
+                  A tale of two legendary revolutionaries and their journey far
+                  away from home. After their journey they return home to start
+                  fighting back against British colonialists in the 1920s. RRR
+                  is revealed as Roudram Ranam Rudhiram in Telugu, Raththam
+                  Ranam Rowthiram in Tamil, Roudra Rana Rudhira in Kannada,
+                  Rudhiram Ranam Roudhram in Malayalam (all of which translate
+                  to Rage, War, Blood) and Rise Roar Revolt in Hindi.
+                </p>
+              </div>
+              <div class="movie-buttons button-right">
+                <button class="movie-btn-one">
+                  <i class="fas fa-play"></i> Play Trailer
+                </button>
+                <button class="movie-btn-two">
+                  <i class="fas fa-heart"></i> Add to List
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-xxl-12">
-          <div class="trending-movie">
-            <h3>Trends Now</h3>
-            <div class="movies-isotope">
-              <div id="filters" class="button-group">
-                <button class="button is-checked" data-filter="*">
-                  All Movie
-                </button>
-                <button class="button" data-filter=".action">Action</button>
-                <button class="button" data-filter=".adventure">
-                  Adventure
-                </button>
-                <button class="button" data-filter=".romance">Romance</button>
-                <button class="button" data-filter=".drama">Drama</button>
-                <button class="button" data-filter=".comedy">Comedy</button>
-                <button class="button" data-filter=".animation">
-                  Animation
-                </button>
-                <button class="button" data-filter=".biography:not(.romance)">
-                  Biography
-                </button>
-                <button class="button" data-filter=".crime:not(.romance)">
-                  Crime
-                </button>
-                <button class="button" data-filter=".history">History</button>
-                <button class="button" data-filter=".war">War</button>
-              </div>
-              <div class="grid">
+      </div>
+    </section>
+
+    <section id="movieBlogs">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-xxl-12">
+            <div class="kallays-ads">
+              <img src="./images/ads.png" alt="ads" />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-xxl-12">
+            <div class="blogs-area">
+              <div class="blog-top">
                 <div class="row">
-                  <div class="col">
-                    <div class="movie-item romance drama biography" data-category="action">
-                      <div class="movie-image">
-                        <img src="./images/movies/96.jpg" alt="96-movie" />
-                      </div>
-                      <div class="movie-title">
-                        <h3>'96 - True Love Story</h3>
-                      </div>
-                      <div class="about-movie">
-                        <div class="movie-year">
-                          <p>2018</p>
+                  <div class="col-sm-12 col-xxl-8">
+                    <div class="blog-left">
+                      <div class="row">
+                        <div class="col-sm-12 col-xxl-6">
+                          <div class="blog-image">
+                            <img src="./images/movies/kgf.jpg" alt="pushpa" />
+                          </div>
                         </div>
-                        <div class="movie-icon">
-                          <a href="#"><i class="fas fa-heart"></i></a>
-                          <a href="#"><i class="fas fa-eye"></i></a>
-                        </div>
-                        <div class="movie-rating">
-                          <a href="#"><i class="fas fa-star"></i></a>
-                          <p>8.5</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="movie-item action war adventure romance" data-category="action">
-                      <div class="movie-image">
-                        <img src="./images/movies/bahubali.jpg" alt="bahubali-movie" />
-                      </div>
-                      <div class="movie-title">
-                        <h3>Baahubali - The Beginning</h3>
-                      </div>
-                      <div class="about-movie">
-                        <div class="movie-year">
-                          <p>2015</p>
-                        </div>
-                        <div class="movie-icon">
-                          <a href="#"><i class="fas fa-heart"></i></a>
-                          <a href="#"><i class="fas fa-eye"></i></a>
-                        </div>
-                        <div class="movie-rating">
-                          <a href="#"><i class="fas fa-star"></i></a>
-                          <p>8</p>
+                        <div class="col-sm-12 col-xxl-6">
+                          <div class="blog-shotContent">
+                            <h2>K.G.F : Chapter 1</h2>
+                            <p>
+                              K.G.F: Chapter 1 is a 2018 Indian Kannada language
+                              period drama action film written and directed by
+                              Prashanth Neel, and produced by Vijay Kiragandur
+                              under the banner of Hombale Films. It is the first
+                              installment in the two-part series, followed by
+                              K.G.F: Chapter 2. The film features Yash as Rocky,
+                              in the lead role, while debutante Ramachandra Raju
+                              features as Garuda. Anant Nag narrates the film,
+                              while Srinidhi Shetty, Vasishta N. Simha, Achyuth
+                              Kumar, and Malavika Avinash appear in supporting
+                              roles.
+                            </p>
+                            <p>
+                              The film's development began in early 2015, after
+                              Neel finished writing the screenplay.Filming began
+                              two years later, on 15 January 2017.Most of the
+                              film is set in the Kolar Gold Fields and was
+                              filmed in locales such as Kolar, Mysore, and parts
+                              of North Karnataka.
+                            </p>
+                            <a href="./single-blog.html">Continue Reading <span><i class="fas fa-chevron-right"></i></span></a>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="movie-item action drama adventure romance" data-category="action">
-                      <div class="movie-image">
-                        <img src="./images/movies/pushpa.png" alt="pushpa-movie" />
-                      </div>
-                      <div class="movie-title">
-                        <h3>Pushpa - The Rise</h3>
-                      </div>
-                      <div class="about-movie">
-                        <div class="movie-year">
-                          <p>2021</p>
+                  <div class="col-sm-12 col-xxl-4">
+                    <div class="blog-right">
+                      <div class="blog-item">
+                        <div class="blogItem-image">
+                          <a href="./single-blog.html"><img src="./images/movies/Padmaavat.jpg" alt="Padmaavat"/></a>
                         </div>
-                        <div class="movie-icon">
-                          <a href="#"><i class="fas fa-heart"></i></a>
-                          <a href="#"><i class="fas fa-eye"></i></a>
-                        </div>
-                        <div class="movie-rating">
-                          <a href="#"><i class="fas fa-star"></i></a>
-                          <p>8.1</p>
+                        <div class="blogItem-content">
+                          <p>How much cost to do a movie like Padmaavat</p>
+                          <a href="./single-blog.html">Learn more</a>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="movie-item drama history adventure romance comedy" data-category="drama">
-                      <div class="movie-image">
-                        <img src="./images/movies/radhe.jpg" alt="radhe-movie" />
-                      </div>
-                      <div class="movie-title">
-                        <h3>Radhe Shyam</h3>
-                      </div>
-                      <div class="about-movie">
-                        <div class="movie-year">
-                          <p>2022</p>
+                      <div class="blog-item">
+                        <div class="blogItem-image">
+                          <a href="./single-blog.html"><img src="./images/movies/pushpa.png" alt="Padmaavat" /></a>
                         </div>
-                        <div class="movie-icon">
-                          <a href="#"><i class="fas fa-heart"></i></a>
-                          <a href="#"><i class="fas fa-eye"></i></a>
+                        <div class="blogItem-content">
+                          <p>What’s happend in the first part of the movie.</p>
+                          <a href="./single-blog.html">Learn more</a>
                         </div>
-                        <div class="movie-rating">
-                          <a href="#"><i class="fas fa-star"></i></a>
-                          <p>8</p>
+                      </div>
+                      <div class="blog-item">
+                        <div class="blogItem-image">
+                          <a href="./single-blog.html"><img src="./images/movies/bahubali.jpg" alt="Padmaavat" /></a>
+                        </div>
+                        <div class="blogItem-content">
+                          <p>How Venkata Suryanarayana Prabhas live his life.</p>
+                          <a href="./single-blog.html">Learn more</a>
+                        </div>
+                      </div>
+                      <div class="blog-item">
+                        <div class="blogItem-image">
+                          <a href="./single-blog.html"><img src="./images/movies/ghajini.jpg" alt="Padmaavat"/></a>
+                        </div>
+                        <div class="blogItem-content">
+                          <p>See what actors do during the movie in backstage.</p>
+                          <a href="./single-blog.html">Learn more</a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="movie-item action animation comedy adventure" data-category="action">
-                      <div class="movie-image">
-                        <img src="./images/movies/robot.jpg" alt="robot-movie" />
+                </div>
+              </div>
+              <div class="blog-bottom">
+                <div class="row">
+                  <div class="col-sm-12 col-xxl-3">
+                    <div class="blog-items">
+                      <div class="blogItems-image">
+                        <a href="./single-blog.html"><img src="./images/movies/96.jpg" alt="" /></a>
                       </div>
-                      <div class="movie-title">
-                        <h3>Robot 2.0</h3>
-                      </div>
-                      <div class="about-movie">
-                        <div class="movie-year">
-                          <p>2018</p>
-                        </div>
-                        <div class="movie-icon">
-                          <a href="#"><i class="fas fa-heart"></i></a>
-                          <a href="#"><i class="fas fa-eye"></i></a>
-                        </div>
-                        <div class="movie-rating">
-                          <a href="#"><i class="fas fa-star"></i></a>
-                          <p>6.2</p>
-                        </div>
+                      <div class="blogItems-content">
+                        <a href="./single-blog.html">“96” voted as “The Best Viewed Movie” for 2016.</a>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="movie-item action drama adventure comedy" data-category="action">
-                      <div class="movie-image">
-                        <img src="./images/movies/rrr.jpg" alt="96-movie" />
+                  <div class="col-sm-12 col-xxl-3">
+                    <div class="blog-items">
+                      <div class="blogItems-image">
+                        <a href="./single-blog.html"><img src="./images/movies/cave.jpg" alt="" /></a>
                       </div>
-                      <div class="movie-title">
-                        <h3>RRR - Return Receipt ...</h3>
-                      </div>
-                      <div class="about-movie">
-                        <div class="movie-year">
-                          <p>2021</p>
-                        </div>
-                        <div class="movie-icon">
-                          <a href="#"><i class="fas fa-heart"></i></a>
-                          <a href="#"><i class="fas fa-eye"></i></a>
-                        </div>
-                        <div class="movie-rating">
-                          <a href="#"><i class="fas fa-star"></i></a>
-                          <p>8.4</p>
-                        </div>
+                      <div class="blogItems-content">
+                        <a href="./single-blog.html">Vijay Thalapathy has a theory about the Cave from “The Knight”.</a>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="movie-item action war crime comedy" data-category="action">
-                      <div class="movie-image">
-                        <img src="./images/movies/war.jpg" alt="96-movie" />
+                  <div class="col-sm-12 col-xxl-3">
+                    <div class="blog-items">
+                      <div class="blogItems-image">
+                        <a href="./single-blog.html"><img src="./images/movies/jai-bhim.jpg" alt="" /></a>
                       </div>
-                      <div class="movie-title">
-                        <h3>War - 2019</h3>
-                      </div>
-                      <div class="about-movie">
-                        <div class="movie-year">
-                          <p>2019</p>
-                        </div>
-                        <div class="movie-icon">
-                          <a href="#"><i class="fas fa-heart"></i></a>
-                          <a href="#"><i class="fas fa-eye"></i></a>
-                        </div>
-                        <div class="movie-rating">
-                          <a href="#"><i class="fas fa-star"></i></a>
-                          <p>6.5</p>
-                        </div>
+                      <div class="blogItems-content">
+                        <a href="./single-blog.html">See what actors do during the movie in backstage.</a>
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="movie-item action romance" data-category="action">
-                      <div class="movie-image">
-                        <img src="./images/movies/kgf.jpg" alt="96-movie" />
+                  <div class="col-sm-12 col-xxl-3">
+                    <div class="blog-items">
+                      <div class="blogItems-image">
+                        <a href="./single-blog.html"><img src="./images/movies/rrr.jpg" alt="" /></a>
                       </div>
-                      <div class="movie-title">
-                        <h3>K.G.F - Chapter 1</h3>
-                      </div>
-                      <div class="about-movie">
-                        <div class="movie-year">
-                          <p>2018</p>
-                        </div>
-                        <div class="movie-icon">
-                          <a href="#"><i class="fas fa-heart"></i></a>
-                          <a href="#"><i class="fas fa-eye"></i></a>
-                        </div>
-                        <div class="movie-rating">
-                          <a href="#"><i class="fas fa-star"></i></a>
-                          <p>8.3</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="movie-item action romance crime comedy" data-category="romance">
-                      <div class="movie-image">
-                        <img src="./images/movies/ghajini.jpg" alt="96-movie" />
-                      </div>
-                      <div class="movie-title">
-                        <h3>Ghajini - True Love Story</h3>
-                      </div>
-                      <div class="about-movie">
-                        <div class="movie-year">
-                          <p>2008</p>
-                        </div>
-                        <div class="movie-icon">
-                          <a href="#"><i class="fas fa-heart"></i></a>
-                          <a href="#"><i class="fas fa-eye"></i></a>
-                        </div>
-                        <div class="movie-rating">
-                          <a href="#"><i class="fas fa-star"></i></a>
-                          <p>7.4</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="movie-item biography drama crime history" data-category="transition">
-                      <div class="movie-image">
-                        <img src="./images/movies/jai-bhim.jpg" alt="96-movie" />
-                      </div>
-                      <div class="movie-title">
-                        <h3>Jai Bhim - A Lawyer</h3>
-                      </div>
-                      <div class="about-movie">
-                        <div class="movie-year">
-                          <p>2021</p>
-                        </div>
-                        <div class="movie-icon">
-                          <a href="#"><i class="fas fa-heart"></i></a>
-                          <a href="#"><i class="fas fa-eye"></i></a>
-                        </div>
-                        <div class="movie-rating">
-                          <a href="#"><i class="fas fa-star"></i></a>
-                          <p>9.4</p>
-                        </div>
+                      <div class="blogItems-content">
+                        <a href="./single-blog.html">“RRR” tickets are already going for hundreds on Ebay.</a>
                       </div>
                     </div>
                   </div>
@@ -486,343 +813,150 @@
                 </button>
               </div>
             </div>
-
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="bestMovie">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-xxl-12">
-          <div class="movie-description">
-            <div class="movie-tags">
-              <div class="tag tag-year">
-                <p>2021</p>
+    <footer id="kallyasFooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-xxl-4">
+            <div class="footer-about">
+              <div class="logo">
+                <img src="./images/footer-logo.png" alt="logo" />
+                <p>
+                  © Copyright 2022 -
+                  <a target="_black" href="https://www.facebook.com/sagorranait"
+                    >SAGOR RANA</a
+                  >
+                  : KALLYAS - Hogash Studio. All rights reserved.
+                </p>
               </div>
-              <div class="tag tag-action">
-                <p>Action</p>
+              <div class="partners">
+                <h3>Our Partners</h3>
+                <div class="stars">
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                  </div>
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                  </div>
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                  </div>
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                  </div>
+                  <div class="star">
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
               </div>
-              <div class="tag tag-adventure">
-                <p>Adventure</p>
+              <div class="social-media">
+                <a target="_black" href="https://www.facebook.com/sagorranait"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
+                <a
+                  target="_black"
+                  href="https://myaccount.google.com/sagorranait"
+                  ><i class="fab fa-google-plus-g"></i
+                ></a>
+                <a
+                  target="_black"
+                  href="https://www.linkedin.com/in/sagorranait"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a target="_black" href="https://www.instagram.com/sagorranait/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
               </div>
-            </div>
-            <div class="movie-title">
-              <h1>Pushpa: The Rise - Part 1</h1>
-            </div>
-            <div class="movie-short-description">
-              <p>Story of Pushpa Raj, a lorry driver in Seshachalam forests of South India, set in the backdrop of red sandalwood smuggling. Red Sandalwood is endemic to South-Eastern Ghats (mountain range) of India.</p>
-            </div>
-            <div class="movie-buttons">
-              <button class="movie-btn-one">
-                <i class="fas fa-play"></i> Play Trailer
-              </button>
-              <button class="movie-btn-two">
-                <i class="fas fa-heart"></i> Add to List
-              </button>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="single-part">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-xxl-6">
-          <div class="teaser-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/f_vbAtFSEc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-xxl-6">
-          <div class="movie-description">
-            <div class="movie-tags right-align">
-              <div class="tag tag-year">
-                <p>2021</p>
-              </div>
-              <div class="tag tag-action">
-                <p>Action</p>
-              </div>
-              <div class="tag tag-adventure">
-                <p>Adventure</p>
-              </div>
-            </div>
-            <div class="movie-title title-right">
-              <h1>RRR - Roudram Ranam Rudhiram</h1>
-            </div>
-            <div class="movie-short-description description-right">
-              <p>
-                A tale of two legendary revolutionaries and their journey far away from home. After their journey they return home to start fighting back against British colonialists in the 1920s. RRR is revealed as Roudram Ranam Rudhiram in Telugu, Raththam Ranam Rowthiram in Tamil, Roudra Rana Rudhira in Kannada, Rudhiram Ranam Roudhram in Malayalam (all of which translate to Rage, War, Blood) and Rise Roar Revolt in Hindi.
-              </p>
-            </div>
-            <div class="movie-buttons button-right">
-              <button class="movie-btn-one">
-                <i class="fas fa-play"></i> Play Trailer
-              </button>
-              <button class="movie-btn-two">
-                <i class="fas fa-heart"></i> Add to List
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="movieBlogs">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-xxl-12">
-          <div class="kallays-ads">
-            <img src="./images/ads.png" alt="ads" />
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-xxl-12">
-          <div class="blogs-area">
-            <div class="blog-top">
+          <div class="col-sm-12 col-xxl-4">
+            <div class="footer-links">
+              <h3>Movies & Serials</h3>
               <div class="row">
-                <div class="col-sm-12 col-xxl-8">
-                  <div class="blog-left">
-                    <div class="row">
-                      <div class="col-sm-12 col-xxl-6">
-                        <div class="blog-image">
-                          <img src="./images/movies/kgf.jpg" alt="pushpa">
-                        </div>
-                      </div>
-                      <div class="col-sm-12 col-xxl-6">
-                        <div class="blog-shotContent">
-                          <h2>K.G.F : Chapter 1</h2>
-                          <p>K.G.F: Chapter 1 is a 2018 Indian Kannada language period drama action film written and directed by Prashanth Neel, and produced by Vijay Kiragandur under the banner of Hombale Films. It is the first installment in the two-part series, followed by K.G.F: Chapter 2. The film features Yash as Rocky, in the lead role, while debutante Ramachandra Raju features as Garuda. Anant Nag narrates the film, while Srinidhi Shetty, Vasishta N. Simha, Achyuth Kumar, and Malavika Avinash appear in supporting roles.</p>
-                          <p>The film's development began in early 2015, after Neel finished writing the screenplay.Filming began two years later, on 15 January 2017.Most of the film is set in the Kolar Gold Fields and was filmed in locales such as Kolar, Mysore, and parts of North Karnataka.</p>
-                          <a href="#">Continue Reading <span><i class="fas fa-chevron-right"></i></span></a>
-                        </div>
-                      </div>
-                    </div>
+                <div class="col-sm-12 col-xxl-4">
+                  <div class="links">
+                    <a href="#">Action</a>
+                    <a href="#">Adventure</a>
+                    <a href="#">Animation</a>
+                    <a href="#">Biography</a>
+                    <a href="#">Comedy</a>
+                    <a href="#">Crime</a>
+                    <a href="#">Documentary</a>
+                    <a href="#">Drama</a>
+                    <a href="#">Family</a>
+                    <a href="#">Fantasy</a>
                   </div>
                 </div>
                 <div class="col-sm-12 col-xxl-4">
-                  <div class="blog-right">
-                    <div class="blog-item">
-                      <div class="blogItem-image">
-                        <img src="./images/movies/Padmaavat.jpg" alt="Padmaavat">
-                      </div>
-                      <div class="blogItem-content">
-                        <p>How much cost to do a movie like Padmaavat</p>
-                        <a href="#">Learn more</a>
-                      </div>
-                    </div>
-                    <div class="blog-item">
-                      <div class="blogItem-image">
-                        <img src="./images/movies/pushpa.png" alt="Padmaavat">
-                      </div>
-                      <div class="blogItem-content">
-                        <p>What’s happend in the first part of the movie.</p>
-                        <a href="#">Learn more</a>
-                      </div>
-                    </div>
-                    <div class="blog-item">
-                      <div class="blogItem-image">
-                        <img src="./images/movies/bahubali.jpg" alt="Padmaavat">
-                      </div>
-                      <div class="blogItem-content">
-                        <p>How Venkata Suryanarayana Prabhas live his life.</p>
-                        <a href="#">Learn more</a>
-                      </div>
-                    </div>
-                    <div class="blog-item">
-                      <div class="blogItem-image">
-                        <img src="./images/movies/ghajini.jpg" alt="Padmaavat">
-                      </div>
-                      <div class="blogItem-content">
-                        <p>See what actors do during the movie in backstage.</p>
-                        <a href="#">Learn more</a>
-                      </div>
-                    </div>
+                  <div class="links">
+                    <a href="#">Film Noir</a>
+                    <a href="#">History</a>
+                    <a href="#">Horror</a>
+                    <a href="#">Music</a>
+                    <a href="#">Musical</a>
+                    <a href="#">Mystery</a>
+                    <a href="#">Romance</a>
+                    <a href="#">Sci-Fi</a>
+                    <a href="#">Short</a>
+                    <a href="#">Sport</a>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-xxl-4">
+                  <div class="links">
+                    <a href="#">Superhero</a>
+                    <a href="#">Thriller</a>
+                    <a href="#">War</a>
+                    <a href="#">Western</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="blog-bottom">
+          </div>
+          <div class="col-sm-12 col-xxl-4">
+            <div class="footer-links">
+              <h3>Others</h3>
               <div class="row">
-                <div class="col-sm-12 col-xxl-3">
-                  <div class="blog-items">
-                    <div class="blogItems-image">
-                      <img src="./images/movies/96.jpg" alt="">
-                    </div>
-                    <div class="blogItems-content">
-                      <h3>“96” voted as “The Best Viewed Movie” for 2016.</h3>
-                    </div>
+                <div class="col-sm-12 col-xxl-4">
+                  <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">Top Rated Movies</a>
+                    <a href="#">Box Office</a>
+                    <a href="#">TV</a>
+                    <a href="#">Coming Soon</a>
+                    <a href="#">Site Index</a>
+                    <a href="#">Search</a>
+                    <a href="#">In Theaters</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Register</a>
                   </div>
                 </div>
-                <div class="col-sm-12 col-xxl-3">
-                  <div class="blog-items">
-                    <div class="blogItems-image">
-                      <img src="./images/movies/cave.jpg" alt="">
-                    </div>
-                    <div class="blogItems-content">
-                      <h3>Vijay Thalapathy has a theory about the Cave from “The Knight”.</h3>
-                    </div>
+                <div class="col-sm-12 col-xxl-4">
+                  <div class="links">
+                    <a href="#">News</a>
+                    <a href="#">Press Room</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Conditions of Use</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Interest-Based Ads</a>
                   </div>
-                </div>
-                <div class="col-sm-12 col-xxl-3">
-                  <div class="blog-items">
-                    <div class="blogItems-image">
-                      <img src="./images/movies/jai-bhim.jpg" alt="">
-                    </div>
-                    <div class="blogItems-content">
-                      <h3>See what actors do during the movie in backstage.</h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-xxl-3">
-                  <div class="blog-items">
-                    <div class="blogItems-image">
-                      <img src="./images/movies/rrr.jpg" alt="">
-                    </div>
-                    <div class="blogItems-content">
-                      <h3>“RRR” tickets are already going for hundreds on Ebay.</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="load-more">
-              <button class="movie-btn-two">
-                <i class="fas fa-plus"></i> Load More
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer id="kallyasFooter">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-xxl-4">
-          <div class="footer-about">
-            <div class="logo">
-              <img src="./images/footer-logo.png" alt="logo">
-              <p>© Copyright 2022 - <a target="_black" href="https://www.facebook.com/sagorranait">SAGOR RANA</a> : KALLYAS - Hogash
-                Studio. All rights reserved.</p>
-            </div>
-            <div class="partners">
-              <h3>Our Partners</h3>
-              <div class="stars">
-                <div class="star">
-                  <i class="far fa-star"></i>
-                </div>
-                <div class="star">
-                  <i class="far fa-star"></i>
-                </div>
-                <div class="star">
-                  <i class="far fa-star"></i>
-                </div>
-                <div class="star">
-                  <i class="far fa-star"></i>
-                </div>
-                <div class="star">
-                  <i class="far fa-star"></i>
-                </div>
-              </div>
-            </div>
-            <div class="social-media">
-              <a target="_black" href="https://www.facebook.com/sagorranait"><i class="fab fa-facebook-square"></i></a>
-              <a target="_black" href="https://myaccount.google.com/sagorranait"><i class="fab fa-google-plus-g"></i></a>
-              <a target="_black" href="https://www.linkedin.com/in/sagorranait"><i class="fab fa-twitter"></i></a>
-              <a target="_black" href="https://www.instagram.com/sagorranait/"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-xxl-4">
-          <div class="footer-links">
-            <h3>Movies & Serials</h3>
-            <div class="row">
-              <div class="col-sm-12 col-xxl-4">
-                <div class="links">
-                  <a href="#">Action</a>
-                  <a href="#">Adventure</a>
-                  <a href="#">Animation</a>
-                  <a href="#">Biography</a>
-                  <a href="#">Comedy</a>
-                  <a href="#">Crime</a>
-                  <a href="#">Documentary</a>
-                  <a href="#">Drama</a>
-                  <a href="#">Family</a>
-                  <a href="#">Fantasy</a>
-                </div>
-              </div>
-              <div class="col-sm-12 col-xxl-4">
-                <div class="links">
-                  <a href="#">Film Noir</a>
-                  <a href="#">History</a>
-                  <a href="#">Horror</a>
-                  <a href="#">Music</a>
-                  <a href="#">Musical</a>
-                  <a href="#">Mystery</a>
-                  <a href="#">Romance</a>
-                  <a href="#">Sci-Fi</a>
-                  <a href="#">Short</a>
-                  <a href="#">Sport</a>
-                </div>
-              </div>
-              <div class="col-sm-12 col-xxl-4">
-                <div class="links">
-                  <a href="#">Superhero</a>
-                  <a href="#">Thriller</a>
-                  <a href="#">War</a>
-                  <a href="#">Western</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-xxl-4">
-          <div class="footer-links">
-            <h3>Others</h3>
-            <div class="row">
-              <div class="col-sm-12 col-xxl-4">
-                <div class="links">
-                  <a href="#">Home</a>
-                  <a href="#">Top Rated Movies</a>
-                  <a href="#">Box Office</a>
-                  <a href="#">TV</a>
-                  <a href="#">Coming Soon</a>
-                  <a href="#">Site Index</a>
-                  <a href="#">Search</a>
-                  <a href="#">In Theaters</a>
-                  <a href="#">Contact Us</a>
-                  <a href="#">Register</a>
-                </div>
-              </div>
-              <div class="col-sm-12 col-xxl-4">
-                <div class="links">
-                  <a href="#">News</a>
-                  <a href="#">Press Room</a>
-                  <a href="#">Advertising</a>
-                  <a href="#">Jobs</a>
-                  <a href="#">Conditions of Use</a>
-                  <a href="#">Privacy Policy</a>
-                  <a href="#">Interest-Based Ads</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/slick.min.js"></script>
-  <script src="./js/bootstrap.bundle.min.js"></script>
-  <script src="./js/isotope.min.js"></script>
-  <script src="./js/scrolltotop.js"></script>
-  <script src="./js/main.js"></script>
-</body>
-
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/isotope.min.js"></script>
+    <script src="./js/scrolltotop.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>

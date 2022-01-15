@@ -1,0 +1,26 @@
+.kallays-singleBlog{
+  .blogs{
+    .blog-left{
+      margin-bottom: 25px;
+    }
+    .load-more {
+      padding-top: 0px;
+      text-align: center;
+      .movie-btn-two {
+        @include buttonStyle(14px 22px, $mirage, $white);
+        @include fontStyle(12px, '', 400);
+        text-transform: uppercase;
+        border: 1px solid $mirage;
+        margin-right: 25px;
+
+        i {
+          padding-right: 10px;
+        }
+      }
+    }
+
+    .blog-bottom{
+      padding-top: 50px;
+    }
+  }
+}

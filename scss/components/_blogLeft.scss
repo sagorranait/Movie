@@ -1,0 +1,35 @@
+.blog-left {
+  width: 100%;
+  height: 100%;
+  .blog-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .blog-shotContent {
+    h2 {
+      @include fontStyle(35px, $white, 600);
+      text-transform: uppercase;
+      padding: 55px 0 30px;
+    }
+    p {
+      @include fontStyle(14px, $silver, 300);
+      padding-bottom: 10px;
+    }
+    a {
+      @include fontStyle(14px, $white, 300);
+      text-decoration: none;
+      i {
+        @include fontStyle(12px, $white, 300);
+        padding-left: 5px;
+      }
+    }
+  }
+}

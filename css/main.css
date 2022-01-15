@@ -153,105 +153,10 @@
   height: 520px;
 }
 
-#movieBlogs .blogs-area .blog-top .blog-left {
-  width: 100%;
-  height: 100%;
-}
-
-#movieBlogs .blogs-area .blog-top .blog-left .blog-image {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-#movieBlogs .blogs-area .blog-top .blog-left .blog-image img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-}
-
-#movieBlogs .blogs-area .blog-top .blog-left .blog-shotContent h2 {
-  color: #fff;
-  font-size: 35px;
-  font-weight: 600;
-  margin: 0;
-  text-transform: uppercase;
-  padding: 55px 0 30px;
-}
-
-#movieBlogs .blogs-area .blog-top .blog-left .blog-shotContent p {
-  color: #b0b0b0;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0;
-  padding-bottom: 5px;
-}
-
-#movieBlogs .blogs-area .blog-top .blog-left .blog-shotContent a {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0;
-  text-decoration: none;
-}
-
-#movieBlogs .blogs-area .blog-top .blog-left .blog-shotContent a i {
-  color: #fff;
-  font-size: 12px;
-  font-weight: 300;
-  margin: 0;
-  padding-left: 5px;
-}
-
 #movieBlogs .blogs-area .blog-top .blog-right {
   border-left: 1px solid #4c4c4c;
   height: 100%;
   padding-left: 35px;
-}
-
-#movieBlogs .blogs-area .blog-bottom {
-  padding-top: 80px;
-}
-
-#movieBlogs .blogs-area .blog-bottom .blog-items {
-  width: 100%;
-  position: relative;
-}
-
-#movieBlogs .blogs-area .blog-bottom .blog-items .blogItems-image {
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
-}
-
-#movieBlogs .blogs-area .blog-bottom .blog-items .blogItems-image img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
-}
-
-#movieBlogs .blogs-area .blog-bottom .blog-items .blogItems-content {
-  width: 100%;
-  padding: 10px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-#movieBlogs .blogs-area .blog-bottom .blog-items .blogItems-content a {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  margin: 0;
-  line-height: 24px;
-  margin: 0;
-  text-decoration: none;
 }
 
 #movieBlogs .blogs-area .load-more {
@@ -551,6 +456,37 @@
 
 .kallays-singleBlog .kallays-sidebar .sidebar-recentPost .post-items .blog-item:last-child {
   border-bottom: 0px;
+}
+
+.kallays-singleBlog .blogs .blog-left {
+  margin-bottom: 25px;
+}
+
+.kallays-singleBlog .blogs .load-more {
+  padding-top: 0px;
+  text-align: center;
+}
+
+.kallays-singleBlog .blogs .load-more .movie-btn-two {
+  color: #fff;
+  background: #15202b;
+  padding: 14px 22px;
+  border-radius: 50px;
+  color: "";
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  border: 1px solid #15202b;
+  margin-right: 25px;
+}
+
+.kallays-singleBlog .blogs .load-more .movie-btn-two i {
+  padding-right: 10px;
+}
+
+.kallays-singleBlog .blogs .blog-bottom {
+  padding-top: 50px;
 }
 
 .kallays-hero {
@@ -1086,6 +1022,101 @@
   color: #4c4c4c;
   font-size: 12px;
   font-weight: 600;
+  margin: 0;
+  text-decoration: none;
+}
+
+.blog-left {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-left .blog-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.blog-left .blog-image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.blog-left .blog-shotContent h2 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 55px 0 30px;
+}
+
+.blog-left .blog-shotContent p {
+  color: #b0b0b0;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.blog-left .blog-shotContent a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  text-decoration: none;
+}
+
+.blog-left .blog-shotContent a i {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.blog-bottom {
+  padding-top: 80px;
+}
+
+.blog-bottom .blog-items {
+  width: 100%;
+  position: relative;
+}
+
+.blog-bottom .blog-items .blogItems-image {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.blog-bottom .blog-items .blogItems-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.blog-bottom .blog-items .blogItems-content {
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.blog-bottom .blog-items .blogItems-content a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 24px;
   margin: 0;
   text-decoration: none;
 }

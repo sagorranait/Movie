@@ -94,8 +94,9 @@
     .sidebar-title{
       border-bottom: 1px solid $white;
       h3{
-        @include fontStyle(16px, $white, 300);
+        @include fontStyle(18px, $white, 500);
         text-transform: uppercase;
+        padding-bottom: 20px;
       }
     }
     .sidebar-search{
@@ -122,20 +123,38 @@
           border-width: 0px 0px 0px 1px;
         }
       }
+    }
 
-      .sidebar-links{
-        li{
-          a{
-            span{
-
-            }
-          }
+    .sidebar-links{
+      margin-bottom: 40px;
+      li{
+        list-style: none;
+        padding-top: 15px;
+        @include displayFlex(flex, center, start, row);
+        span{
+          width: 25px;
+          height: 1px;
+          display: block;
+          background: $white;
+          margin-right: 15px;
+        }
+        a{
+          @include fontStyle(16px, $white, 400);
+          text-decoration: none;
         }
       }
+    }
 
-      .sidebar-recentPost{
-        .post-items{
-
+    .sidebar-recentPost{
+      margin-bottom: 40px;
+      .post-items{
+        .blog-item{
+          padding: 12.5px 0;
+          border-bottom: 1px solid $white; 
+          
+          &:last-child{
+            border-bottom: 0px; 
+          }
         }
       }
     }

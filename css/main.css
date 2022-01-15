@@ -450,10 +450,11 @@
 
 .kallays-singleBlog .kallays-sidebar .sidebar-title h3 {
   color: #fff;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 500;
   margin: 0;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 .kallays-singleBlog .kallays-sidebar .sidebar-search {
@@ -499,6 +500,57 @@
 .kallays-singleBlog .kallays-sidebar .sidebar-search .input-group .input-group-text {
   background: none;
   border-width: 0px 0px 0px 1px;
+}
+
+.kallays-singleBlog .kallays-sidebar .sidebar-links {
+  margin-bottom: 40px;
+}
+
+.kallays-singleBlog .kallays-sidebar .sidebar-links li {
+  list-style: none;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.kallays-singleBlog .kallays-sidebar .sidebar-links li span {
+  width: 25px;
+  height: 1px;
+  display: block;
+  background: #fff;
+  margin-right: 15px;
+}
+
+.kallays-singleBlog .kallays-sidebar .sidebar-links li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  text-decoration: none;
+}
+
+.kallays-singleBlog .kallays-sidebar .sidebar-recentPost {
+  margin-bottom: 40px;
+}
+
+.kallays-singleBlog .kallays-sidebar .sidebar-recentPost .post-items .blog-item {
+  padding: 12.5px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.kallays-singleBlog .kallays-sidebar .sidebar-recentPost .post-items .blog-item:last-child {
+  border-bottom: 0px;
 }
 
 .kallays-hero {

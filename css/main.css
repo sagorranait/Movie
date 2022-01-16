@@ -490,7 +490,20 @@
 }
 
 .kallays-movies {
+  width: 100%;
   position: relative;
+}
+
+.kallays-movies .single-movie {
+  padding: 80px 0;
+}
+
+.kallays-movies .single-movie .singleMove-image {
+  width: 100%;
+}
+
+.kallays-movies .single-movie .singleMove-image img {
+  width: 100%;
 }
 
 .kallays-hero {

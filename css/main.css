@@ -489,6 +489,10 @@
   padding-top: 50px;
 }
 
+.kallays-movies {
+  position: relative;
+}
+
 .kallays-hero {
   position: relative;
   z-index: 1;

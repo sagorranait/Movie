@@ -1,3 +1,4 @@
+@import './navbar';
 @import './hero';
 @import './signleMovie';
 @import './trendsNow';
@@ -6,58 +7,3 @@
 @import './blogLeft';
 @import './blogBottom';
 @import './footer';
-/* Navbar Area Start */
-.kallays-navbar {
-  // Navbar Items
-  .nav-link {
-    @include fontStyle(14px, $white, 300);
-    padding-right: 37px !important;
-    // Active Navbar Item
-    &.active {
-      color: $red;
-      font-weight: 700;
-    }
-  }
-
-  // Search input Area
-  .navbar-search {
-    margin: 0 35px 0 60px;
-    position: relative;
-
-    .form-control {
-      padding: 5px 0;
-      font-size: 14px;
-      color: $red;
-      background: none;
-      border-color: $red;
-      border-width: 0px 0px 1px 0px;
-      border-radius: 0px;
-      // Change the placeholder font color
-      &::placeholder {
-        color: $red;
-      }
-      // Remove the outer glow
-      &:focus {
-        outline: none;
-        box-shadow: none;
-      }
-    }
-    // Search Button
-    .search-icon {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background: none;
-      border: none;
-      i {
-        font-size: 14px;
-        color: $red;
-      }
-    }
-  }
-
-  .kallyas-btn {
-    @include buttonStyle(0 0 0 26px, $red, $white);
-  }
-}
-/* Navbar Area End */

@@ -619,6 +619,78 @@
   padding-bottom: 15px;
 }
 
+/* Navbar Area Start */
+.kallays-navbar .nav-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  padding-right: 37px !important;
+}
+
+.kallays-navbar .nav-link.active {
+  color: #f10e1f;
+  font-weight: 700;
+}
+
+.kallays-navbar .navbar-search {
+  margin: 0 35px 0 60px;
+  position: relative;
+}
+
+.kallays-navbar .navbar-search .form-control {
+  padding: 5px 0;
+  font-size: 14px;
+  color: #f10e1f;
+  background: none;
+  border-color: #f10e1f;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 0px;
+}
+
+.kallays-navbar .navbar-search .form-control::-webkit-input-placeholder {
+  color: #f10e1f;
+}
+
+.kallays-navbar .navbar-search .form-control:-ms-input-placeholder {
+  color: #f10e1f;
+}
+
+.kallays-navbar .navbar-search .form-control::-ms-input-placeholder {
+  color: #f10e1f;
+}
+
+.kallays-navbar .navbar-search .form-control::placeholder {
+  color: #f10e1f;
+}
+
+.kallays-navbar .navbar-search .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.kallays-navbar .navbar-search .search-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+}
+
+.kallays-navbar .navbar-search .search-icon i {
+  font-size: 14px;
+  color: #f10e1f;
+}
+
+.kallays-navbar .kallyas-btn {
+  color: #fff;
+  background: #f10e1f;
+  padding: 0 0 0 26px;
+  border-radius: 50px;
+}
+
+/* Navbar Area End */
 .kallays-hero {
   position: relative;
   z-index: 1;
@@ -1352,77 +1424,4 @@
 #kallyasFooter .footer-links .links a:hover {
   color: #fff;
 }
-
-/* Navbar Area Start */
-.kallays-navbar .nav-link {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0;
-  padding-right: 37px !important;
-}
-
-.kallays-navbar .nav-link.active {
-  color: #f10e1f;
-  font-weight: 700;
-}
-
-.kallays-navbar .navbar-search {
-  margin: 0 35px 0 60px;
-  position: relative;
-}
-
-.kallays-navbar .navbar-search .form-control {
-  padding: 5px 0;
-  font-size: 14px;
-  color: #f10e1f;
-  background: none;
-  border-color: #f10e1f;
-  border-width: 0px 0px 1px 0px;
-  border-radius: 0px;
-}
-
-.kallays-navbar .navbar-search .form-control::-webkit-input-placeholder {
-  color: #f10e1f;
-}
-
-.kallays-navbar .navbar-search .form-control:-ms-input-placeholder {
-  color: #f10e1f;
-}
-
-.kallays-navbar .navbar-search .form-control::-ms-input-placeholder {
-  color: #f10e1f;
-}
-
-.kallays-navbar .navbar-search .form-control::placeholder {
-  color: #f10e1f;
-}
-
-.kallays-navbar .navbar-search .form-control:focus {
-  outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.kallays-navbar .navbar-search .search-icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: none;
-  border: none;
-}
-
-.kallays-navbar .navbar-search .search-icon i {
-  font-size: 14px;
-  color: #f10e1f;
-}
-
-.kallays-navbar .kallyas-btn {
-  color: #fff;
-  background: #f10e1f;
-  padding: 0 0 0 26px;
-  border-radius: 50px;
-}
-
-/* Navbar Area End */
 /*# sourceMappingURL=main.css.map */

@@ -489,6 +489,26 @@
   padding-top: 50px;
 }
 
+#kallayMovieHeader {
+  width: 100%;
+  height: 1830px;
+  position: relative;
+  background: #020d18;
+}
+
+#kallayMovieHeader::before {
+  content: '';
+  width: 100%;
+  height: 750px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("../images/movies/pushpa-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .kallays-movies {
   width: 100%;
   position: relative;
@@ -500,10 +520,103 @@
 
 .kallays-movies .single-movie .singleMove-image {
   width: 100%;
+  height: 585px;
 }
 
 .kallays-movies .single-movie .singleMove-image img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 46px;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-title .title-text {
+  width: 850px;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-title .title-text h2 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 55px;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-title .title-text li {
+  color: #b0b0b0;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 12px;
+  list-style: none;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-title .title-text li span {
+  color: #37a3df;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-title .btn-rating {
+  width: 216px;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-title .btn-rating .movie-btn-two {
+  color: #fff;
+  background: #000000;
+  padding: 14px 22px;
+  border-radius: 50px;
+  color: "";
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+  margin-right: 25px;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-title .btn-rating .movie-btn-two i {
+  padding-right: 10px;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-title .btn-rating .rating i {
+  color: #f4b01e;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-title .btn-rating .rating span {
+  color: #37a3df;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.kallays-movies .single-movie .singleMovie-content .content-description p {
+  color: #b0b0b0;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 15px;
 }
 
 .kallays-hero {

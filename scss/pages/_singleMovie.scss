@@ -1,48 +1,90 @@
-.kallays-movies{
+#kallayMovieHeader {
+  width: 100%;
+  height: 1830px;
+  position: relative;
+  background: $pearl;
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    @include backgroundImage('../images/movies/pushpa-bg.png');
+  }
+}
+
+.kallays-movies {
   width: 100%;
   position: relative;
 
-  .single-movie{
+  .single-movie {
     padding: 80px 0;
-    .singleMove-image{
+    .singleMove-image {
       width: 100%;
-      img{
+      height: 585px;
+      img {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
       }
     }
 
-    .singleMovie-content{
-      .content-title{
-        .title-text{
-          h2{
-
+    .singleMovie-content {
+      .content-title {
+        @include displayFlex(flex, center, start, row);
+        padding-bottom: 46px;
+        .title-text {
+          width: 850px;
+          h2 {
+            @include fontStyle(35px, $white, 600);
+            text-transform: uppercase;
+            padding-bottom: 55px;
           }
 
-          li{
+          li {
+            @include fontStyle(16px, $silver, 300);
+            padding-bottom: 12px;
+            list-style: none;
 
+            span {
+              color: $blue;
+            }
           }
         }
 
-        .btn-rating{
-          .movie-btn-two{
-            i{}
+        .btn-rating {
+          width: 216px;
+          .movie-btn-two {
+            @include buttonStyle(14px 22px, $black, $white);
+            @include fontStyle(12px, '', 400);
+            text-transform: uppercase;
+            border: 1px solid $black;
+            margin-right: 25px;
+
+            i {
+              padding-right: 10px;
+            }
           }
 
-          .rating{
-            i{
-
+          .rating {
+            i {
+              @include fontStyle(14px, $buttercup, 300);
             }
 
-            span{
-
+            span {
+              @include fontStyle(14px, $blue, 300);
             }
           }
         }
       }
 
-      .content-description{
-        p{
-
+      .content-description {
+        p {
+          @include fontStyle(15px, $silver, 300);
+          padding-bottom: 15px;
         }
       }
     }

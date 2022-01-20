@@ -21,6 +21,11 @@
     a {
       @include fontStyle(12px, $tundora, 600);
       text-decoration: none;
+      transition: 0.2s all;
+
+      &:hover{
+        color: $white;
+      }
     }
   }
 }

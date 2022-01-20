@@ -1226,6 +1226,12 @@
   font-weight: 600;
   margin: 0;
   text-decoration: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.blog-item .blogItem-content a:hover {
+  color: #fff;
 }
 
 .blog-left {

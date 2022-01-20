@@ -25,6 +25,82 @@
   right: 30px !important;
 }
 
+@media (min-width: 100px) and (max-width: 320.5px) {
+  .navbar-toggler i {
+    color: #f10e1f;
+  }
+  .navbar-toggler:focus {
+    -webkit-box-shadow: 0 0 0 .25rem;
+            box-shadow: 0 0 0 .25rem;
+  }
+  .kallays-navbar .nav-item {
+    text-align: right;
+  }
+  .kallays-navbar .navbar-search {
+    margin: 5px 35px 5px 60px;
+  }
+  .kallays-navbar .kallyas-btn {
+    padding: 0 0 0 35px !important;
+    max-width: 130px;
+    margin: 8px 34px 0 auto;
+  }
+  #kallaysHeader {
+    height: 1175px !important;
+  }
+  .kallays-hero {
+    padding: 20px 0;
+  }
+  .kallays-hero .movie-description {
+    height: 310px;
+  }
+  .kallays-hero .movie-description .movie-tags .tag, .kallays-hero .movie-description .right-align .tag {
+    padding: 3px 9px !important;
+  }
+  .kallays-hero .movie-description .movie-tags .tag p, .kallays-hero .movie-description .right-align .tag p {
+    font-size: 12px !important;
+  }
+  .kallays-hero .movie-description .movie-title {
+    padding: 20px 0 15px;
+  }
+  .kallays-hero .movie-description .movie-title h1 {
+    font-size: 19px;
+  }
+  .kallays-hero .movie-description .movie-short-description {
+    padding-bottom: 20px;
+  }
+  .kallays-hero .movie-description .movie-buttons .movie-btn-one, .kallays-hero .movie-description .movie-buttons .movie-btn-two {
+    padding: 10px 14px;
+    font-size: 10px;
+    margin-right: 0px;
+  }
+  .kallays-hero .movie-description .movie-buttons .movie-btn-two {
+    padding: 10px 14px;
+    font-size: 10px;
+    margin-right: 0px;
+  }
+  .kallays-hero .movie-image {
+    padding-top: 20px;
+  }
+  .kallays-hero .movie-image img {
+    width: 100%;
+  }
+  .kallays-popular-serials {
+    padding-top: 10px;
+  }
+  .kallays-popular-serials .serials-slider .serial {
+    max-width: 205px;
+  }
+  .kallays-popular-serials .serials-slider .slick-prev {
+    left: 250px !important;
+    right: 50px;
+    top: -46px !important;
+  }
+  .kallays-popular-serials .serials-slider .slick-next {
+    top: -46px !important;
+    right: 12px !important;
+  }
+}
+
 /*
  Website Name: KALLYAS - Watch Unlimited Movie
  Author: SAGOR RANA

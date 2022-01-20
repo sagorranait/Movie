@@ -1,6 +1,7 @@
 $(document).ready(function(){
   // Popular Serials Slider
   $('.serials-slider').slick({
+    arrows: true,
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
@@ -10,7 +11,7 @@ $(document).ready(function(){
       {
         breakpoint: 700,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 3
@@ -19,7 +20,17 @@ $(document).ready(function(){
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          arrows: true,
+          autoplay:true,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 1

@@ -204,6 +204,47 @@
     }
   }
 
+  .single-part{
+    height: 715px !important;
+    .teaser-video{
+      iframe{
+        width: 100% !important;
+        height: 165px !important;
+      }
+    }
+    .movie-tags{
+      .tag{
+        padding: 3px 9px !important;
+        p{
+          font-size: 12px !important;
+        }
+      }
+    }
+
+    .movie-title{
+      padding: 20px 0 15px;
+      h1{
+        font-size: 20px !important;
+      }
+    }
+
+    .movie-description {
+      .movie-short-description {
+        p{
+          font-size: 13px;
+        }
+      } 
+    }
+
+    .movie-buttons{
+      .movie-btn-one{
+        padding: 9px 16px !important;
+        font-size: 10px !important;
+        margin-right: 10px !important;
+      }
+    }
+  }
+
 }
 @media (min-width: 321px) and (max-width: 574.5px){}
 @media (min-width: 575px) and (max-width: 767.5px){}

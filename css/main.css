@@ -190,6 +190,33 @@
     font-size: 10px;
     margin-right: 10px;
   }
+  .single-part {
+    height: 715px !important;
+  }
+  .single-part .teaser-video iframe {
+    width: 100% !important;
+    height: 165px !important;
+  }
+  .single-part .movie-tags .tag, .single-part .movie-description .right-align .tag, .movie-description .single-part .right-align .tag {
+    padding: 3px 9px !important;
+  }
+  .single-part .movie-tags .tag p, .single-part .movie-description .right-align .tag p, .movie-description .single-part .right-align .tag p {
+    font-size: 12px !important;
+  }
+  .single-part .movie-title {
+    padding: 20px 0 15px;
+  }
+  .single-part .movie-title h1 {
+    font-size: 20px !important;
+  }
+  .single-part .movie-description .movie-short-description p {
+    font-size: 13px;
+  }
+  .single-part .movie-buttons .movie-btn-one, .single-part .movie-description .movie-buttons .movie-btn-two, .movie-description .single-part .movie-buttons .movie-btn-two {
+    padding: 9px 16px !important;
+    font-size: 10px !important;
+    margin-right: 10px !important;
+  }
 }
 
 /*

@@ -245,6 +245,48 @@
     }
   }
 
+  #movieBlogs {
+    height: auto !important; 
+
+    .kallays-ads{
+      padding: 30px 0;
+      img{
+        width: 100%;
+      }
+    }
+    
+    .blogs-area{
+      .blog-top{
+        height: auto !important;
+      }
+      .load-more {
+        padding: 30px 0 !important;
+      }
+    }
+
+    .blog-left{ 
+      .blog-shotContent{ 
+        h2 {
+          font-size: 25px;
+          padding: 20px 0 15px;
+        }
+      }
+    }
+
+    .blog-right {
+      border-left: 0px !important;
+      padding-left: 0px !important;
+    }
+
+    .blog-bottom {
+      padding-top: 40px;
+
+      .blog-items {
+        margin-bottom: 25px;
+      }
+    }
+  }
+
 }
 @media (min-width: 321px) and (max-width: 574.5px){}
 @media (min-width: 575px) and (max-width: 767.5px){}

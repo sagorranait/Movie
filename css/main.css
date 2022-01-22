@@ -99,6 +99,97 @@
     top: -46px !important;
     right: 12px !important;
   }
+  .kallays-popular-serials .serials-slider .slick-list {
+    height: 220px;
+  }
+  .kallays-popular-serials .serials-slider .slick-track {
+    height: 238px;
+  }
+  #singleMovie {
+    height: 635px !important;
+  }
+  #singleMovie .teaser-video figure .video {
+    height: 215px;
+  }
+  #singleMovie .right-align .tag {
+    padding: 3px 6px;
+  }
+  #singleMovie .right-align .tag p {
+    font-size: 12px;
+  }
+  #singleMovie .movie-title {
+    padding: 20px 0 15px;
+  }
+  #singleMovie .movie-title h1 {
+    font-size: 25px;
+  }
+  #singleMovie .movie-description {
+    height: 350px;
+  }
+  #singleMovie .movie-description .movie-short-description p {
+    font-size: 13px;
+  }
+  #singleMovie .movie-buttons .movie-btn-one, #singleMovie .movie-description .movie-buttons .movie-btn-two, .movie-description #singleMovie .movie-buttons .movie-btn-two {
+    padding: 9px 16px;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  #trendsNow {
+    height: auto !important;
+  }
+  #trendsNow .kallays-ads {
+    padding: 35px 0;
+  }
+  #trendsNow .kallays-ads img {
+    width: 100%;
+  }
+  #trendsNow .trending-movie .movies-isotope .button-group {
+    padding-bottom: 31px !important;
+    width: auto !important;
+    margin-left: 0px !important;
+  }
+  #trendsNow .trending-movie .movies-isotope .button-group .button {
+    margin-left: 0px;
+    margin-right: 8px;
+  }
+  #trendsNow .trending-movie .movies-isotope .button-group .slick-prev {
+    top: -57px !important;
+    left: 251px !important;
+  }
+  #trendsNow .trending-movie .movies-isotope .button-group .slick-next {
+    top: -57px !important;
+    right: 12px !important;
+  }
+  #trendsNow .load-more {
+    padding: 30px 0;
+  }
+  #trendsNow .movie-item {
+    margin: 0px 37px;
+  }
+  #bestMovie {
+    height: 315px !important;
+  }
+  #bestMovie .movie-tags .tag, #bestMovie .movie-description .right-align .tag, .movie-description #bestMovie .right-align .tag {
+    padding: 3px 9px !important;
+  }
+  #bestMovie .movie-tags .tag p, #bestMovie .movie-description .right-align .tag p, .movie-description #bestMovie .right-align .tag p {
+    font-size: 12px !important;
+  }
+  #bestMovie .movie-title {
+    padding: 20px 0 15px;
+  }
+  #bestMovie .movie-title h1 {
+    font-size: 20px;
+  }
+  #bestMovie .movie-description .movie-short-description p {
+    font-size: 13px;
+    max-width: 300px;
+  }
+  #bestMovie .movie-buttons .movie-btn-one, #bestMovie .movie-description .movie-buttons .movie-btn-two, .movie-description #bestMovie .movie-buttons .movie-btn-two {
+    padding: 9px 16px;
+    font-size: 10px;
+    margin-right: 10px;
+  }
 }
 
 /*

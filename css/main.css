@@ -464,63 +464,27 @@
   #trendsNow .load-more {
     padding: 30px 0;
   }
-  #trendsNow .movie-item {
-    width: auto;
-    margin: 0px 37px;
-  }
   #bestMovie {
-    height: 315px !important;
-  }
-  #bestMovie .movie-tags .tag, #bestMovie .movie-description .right-align .tag, .movie-description #bestMovie .right-align .tag {
-    padding: 3px 9px !important;
-  }
-  #bestMovie .movie-tags .tag p, #bestMovie .movie-description .right-align .tag p, .movie-description #bestMovie .right-align .tag p {
-    font-size: 12px !important;
+    height: 348px !important;
   }
   #bestMovie .movie-title {
     padding: 20px 0 15px;
   }
   #bestMovie .movie-title h1 {
-    font-size: 20px;
+    font-size: 35px;
   }
   #bestMovie .movie-description .movie-short-description {
     width: 100% !important;
   }
   #bestMovie .movie-description .movie-short-description p {
-    font-size: 13px;
-    max-width: 300px;
-  }
-  #bestMovie .movie-buttons .movie-btn-one, #bestMovie .movie-description .movie-buttons .movie-btn-two, .movie-description #bestMovie .movie-buttons .movie-btn-two {
-    padding: 9px 16px;
-    font-size: 10px;
-    margin-right: 10px;
+    max-width: 100%;
   }
   .single-part {
-    height: 715px !important;
+    height: auto !important;
   }
   .single-part .teaser-video iframe {
     width: 100% !important;
-    height: 165px !important;
-  }
-  .single-part .movie-tags .tag, .single-part .movie-description .right-align .tag, .movie-description .single-part .right-align .tag {
-    padding: 3px 9px !important;
-  }
-  .single-part .movie-tags .tag p, .single-part .movie-description .right-align .tag p, .movie-description .single-part .right-align .tag p {
-    font-size: 12px !important;
-  }
-  .single-part .movie-title {
-    padding: 20px 0 15px;
-  }
-  .single-part .movie-title h1 {
-    font-size: 20px !important;
-  }
-  .single-part .movie-description .movie-short-description p {
-    font-size: 13px;
-  }
-  .single-part .movie-buttons .movie-btn-one, .single-part .movie-description .movie-buttons .movie-btn-two, .movie-description .single-part .movie-buttons .movie-btn-two {
-    padding: 9px 16px !important;
-    font-size: 10px !important;
-    margin-right: 10px !important;
+    height: 310px !important;
   }
   #movieBlogs {
     height: auto !important;
@@ -544,6 +508,9 @@
   #movieBlogs .blog-right {
     border-left: 0px !important;
     padding-left: 0px !important;
+  }
+  #movieBlogs .blog-item {
+    width: 80%;
   }
   .blog-bottom {
     padding-top: 40px;

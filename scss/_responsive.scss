@@ -553,30 +553,18 @@
       }
     }
    }
-  .load-more {
-    padding: 30px 0;
-  }
-   .movie-item {
-    width: auto;
-    margin: 0px 37px;
-   } 
+    .load-more {
+      padding: 30px 0;
+    }
   }
 
   #bestMovie {
-    height: 315px !important;
-    .movie-tags{
-      .tag{
-        padding: 3px 9px !important;
-        p{
-          font-size: 12px !important;
-        }
-      }
-    }
+    height: 348px !important;
 
     .movie-title{
       padding: 20px 0 15px;
       h1{
-        font-size: 20px;
+        font-size: 35px;
       }
     }
 
@@ -584,58 +572,18 @@
       .movie-short-description {
         width: 100% !important;
         p{
-          font-size: 13px;
-          max-width: 300px;
+          max-width: 100%;
         }
       } 
-    }
-
-    .movie-buttons{
-      .movie-btn-one{
-        padding: 9px 16px;
-        font-size: 10px;
-        margin-right: 10px;
-      }
     }
   }
 
   .single-part{
-    height: 715px !important;
+    height: auto !important;
     .teaser-video{
       iframe{
         width: 100% !important;
-        height: 165px !important;
-      }
-    }
-    .movie-tags{
-      .tag{
-        padding: 3px 9px !important;
-        p{
-          font-size: 12px !important;
-        }
-      }
-    }
-
-    .movie-title{
-      padding: 20px 0 15px;
-      h1{
-        font-size: 20px !important;
-      }
-    }
-
-    .movie-description {
-      .movie-short-description {
-        p{
-          font-size: 13px;
-        }
-      } 
-    }
-
-    .movie-buttons{
-      .movie-btn-one{
-        padding: 9px 16px !important;
-        font-size: 10px !important;
-        margin-right: 10px !important;
+        height: 310px !important;
       }
     }
   }
@@ -671,6 +619,10 @@
     .blog-right {
       border-left: 0px !important;
       padding-left: 0px !important;
+    }
+
+    .blog-item {
+      width: 80%;
     }
   }
 

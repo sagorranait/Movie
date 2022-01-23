@@ -349,6 +349,307 @@
   }
 }
 
+@media (min-width: 321px) and (max-width: 575.5px) {
+  #kallaysHeader {
+    height: auto !important;
+    padding-bottom: 35px !important;
+  }
+  .navbar-toggler i {
+    color: #f10e1f;
+  }
+  .navbar-toggler:focus {
+    -webkit-box-shadow: 0 0 0 .25rem;
+            box-shadow: 0 0 0 .25rem;
+  }
+  .kallays-navbar .nav-item {
+    text-align: right;
+  }
+  .kallays-navbar .navbar-search {
+    margin: 5px 35px 5px 60px;
+  }
+  .kallays-navbar .kallyas-btn {
+    padding: 0 0 0 35px !important;
+    max-width: 130px;
+    margin: 8px 34px 0 auto;
+  }
+  .kallays-navbar .navbar-search {
+    margin: 0 35px 0 60px;
+    position: relative;
+    padding-left: 205px;
+  }
+  .kallays-hero {
+    padding: 20px 0;
+  }
+  .kallays-hero .movie-description {
+    height: 310px;
+  }
+  .kallays-hero .movie-description .movie-title {
+    padding: 20px 0 15px;
+  }
+  .kallays-hero .movie-description .movie-title h1 {
+    font-size: 35px;
+  }
+  .kallays-hero .movie-description .movie-short-description {
+    padding-bottom: 20px;
+  }
+  .kallays-hero .movie-image {
+    padding-top: 20px;
+  }
+  .kallays-hero .movie-image img {
+    width: 100%;
+  }
+  .kallays-popular-serials {
+    padding-top: 10px;
+  }
+  .kallays-popular-serials .serials-slider .serial {
+    max-width: 205px;
+  }
+  .kallays-popular-serials .serials-slider .slick-prev {
+    left: 490px !important;
+    right: 50px;
+    top: -46px !important;
+  }
+  .kallays-popular-serials .serials-slider .slick-next {
+    top: -46px !important;
+    right: 25px !important;
+  }
+  .kallays-popular-serials .serials-slider .slick-list {
+    height: 220px;
+  }
+  .kallays-popular-serials .serials-slider .slick-track {
+    height: 238px;
+  }
+  #singleMovie {
+    height: auto !important;
+  }
+  #singleMovie .teaser-video figure .video {
+    height: 315px;
+  }
+  #singleMovie .teaser-video figure .teaser-controls .teaser-buttom {
+    bottom: 20px;
+    padding: 8px;
+  }
+  #singleMovie .movie-title {
+    padding: 20px 0 15px;
+  }
+  #singleMovie .movie-description {
+    height: 350px;
+  }
+  #trendsNow {
+    height: auto !important;
+  }
+  #trendsNow .kallays-ads {
+    padding: 35px 0;
+  }
+  #trendsNow .kallays-ads img {
+    width: 100%;
+  }
+  #trendsNow .trending-movie .movies-isotope .button-group {
+    padding-bottom: 31px !important;
+    width: auto !important;
+    margin-left: 0px !important;
+  }
+  #trendsNow .trending-movie .movies-isotope .button-group .button {
+    margin-left: 0px;
+    margin-right: 8px;
+  }
+  #trendsNow .trending-movie .movies-isotope .button-group .slick-prev {
+    left: 490px !important;
+    top: -57px !important;
+  }
+  #trendsNow .trending-movie .movies-isotope .button-group .slick-next {
+    top: -57px !important;
+    right: 26px !important;
+  }
+  #trendsNow .load-more {
+    padding: 30px 0;
+  }
+  #trendsNow .movie-item {
+    width: auto;
+    margin: 0px 37px;
+  }
+  #bestMovie {
+    height: 315px !important;
+  }
+  #bestMovie .movie-tags .tag, #bestMovie .movie-description .right-align .tag, .movie-description #bestMovie .right-align .tag {
+    padding: 3px 9px !important;
+  }
+  #bestMovie .movie-tags .tag p, #bestMovie .movie-description .right-align .tag p, .movie-description #bestMovie .right-align .tag p {
+    font-size: 12px !important;
+  }
+  #bestMovie .movie-title {
+    padding: 20px 0 15px;
+  }
+  #bestMovie .movie-title h1 {
+    font-size: 20px;
+  }
+  #bestMovie .movie-description .movie-short-description {
+    width: 100% !important;
+  }
+  #bestMovie .movie-description .movie-short-description p {
+    font-size: 13px;
+    max-width: 300px;
+  }
+  #bestMovie .movie-buttons .movie-btn-one, #bestMovie .movie-description .movie-buttons .movie-btn-two, .movie-description #bestMovie .movie-buttons .movie-btn-two {
+    padding: 9px 16px;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .single-part {
+    height: 715px !important;
+  }
+  .single-part .teaser-video iframe {
+    width: 100% !important;
+    height: 165px !important;
+  }
+  .single-part .movie-tags .tag, .single-part .movie-description .right-align .tag, .movie-description .single-part .right-align .tag {
+    padding: 3px 9px !important;
+  }
+  .single-part .movie-tags .tag p, .single-part .movie-description .right-align .tag p, .movie-description .single-part .right-align .tag p {
+    font-size: 12px !important;
+  }
+  .single-part .movie-title {
+    padding: 20px 0 15px;
+  }
+  .single-part .movie-title h1 {
+    font-size: 20px !important;
+  }
+  .single-part .movie-description .movie-short-description p {
+    font-size: 13px;
+  }
+  .single-part .movie-buttons .movie-btn-one, .single-part .movie-description .movie-buttons .movie-btn-two, .movie-description .single-part .movie-buttons .movie-btn-two {
+    padding: 9px 16px !important;
+    font-size: 10px !important;
+    margin-right: 10px !important;
+  }
+  #movieBlogs {
+    height: auto !important;
+  }
+  #movieBlogs .kallays-ads {
+    padding: 30px 0;
+  }
+  #movieBlogs .kallays-ads img {
+    width: 100%;
+  }
+  #movieBlogs .blogs-area .blog-top {
+    height: auto !important;
+  }
+  #movieBlogs .blogs-area .load-more {
+    padding: 30px 0 !important;
+  }
+  #movieBlogs .blog-left .blog-shotContent h2 {
+    font-size: 25px;
+    padding: 20px 0 15px;
+  }
+  #movieBlogs .blog-right {
+    border-left: 0px !important;
+    padding-left: 0px !important;
+  }
+  .blog-bottom {
+    padding-top: 40px;
+  }
+  .blog-bottom .blog-items {
+    margin-bottom: 25px;
+  }
+  #kallyasFooter {
+    height: auto !important;
+    text-align: center;
+  }
+  #kallyasFooter .footer-about .partners .stars {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    padding-bottom: 35px;
+  }
+  #kallyasFooter .footer-about .partners .stars .star {
+    margin-right: 15px;
+  }
+  #kallyasFooter .footer-about .partners .stars .star:last-child {
+    margin-right: 0px;
+  }
+  #kallyasFooter .footer-about .social-media {
+    padding-bottom: 35px;
+  }
+  .kallays-mylist {
+    padding-top: 30px !important;
+    text-align: center;
+  }
+  .kallays-mylist .kallays-mylist h3 {
+    font-size: 23px !important;
+    font-weight: 600 !important;
+  }
+  .kallays-mylist .movie-item {
+    margin: 0 auto 40px !important;
+    text-align: left;
+  }
+  #kallayMovieHeader {
+    height: auto !important;
+    padding-bottom: 35px !important;
+  }
+  #kallayMovieHeader .kallays-movies .single-movie {
+    padding: 35px 0;
+  }
+  #kallayMovieHeader .kallays-movies .single-movie .singleMove-image {
+    height: 240px !important;
+  }
+  #kallayMovieHeader .kallays-movies .single-movie .singleMove-image img {
+    -o-object-position: center;
+       object-position: center;
+  }
+  #kallayMovieHeader .kallays-movies .singleMovie-content .content-title {
+    padding-bottom: 25px;
+  }
+  #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .title-text {
+    width: 354px;
+  }
+  #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .title-text h2 {
+    font-size: 20px !important;
+    padding-bottom: 35px !important;
+  }
+  #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .title-text li {
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+  #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .btn-rating .movie-btn-two {
+    padding: 10px 11px !important;
+    font-size: 10px !important;
+    margin-right: 1px !important;
+  }
+  #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .btn-rating .rating {
+    text-align: center;
+    padding-top: 10px;
+  }
+  #kallayMovieHeader .kallays-movies .singleMovie-content .content-description p {
+    font-size: 13px;
+    padding-bottom: 13px;
+  }
+  #kallayMovieHeader .kallays-movies .singleMovie-content {
+    padding-top: 35px;
+  }
+  .singleMovie-trailer .blog-item {
+    padding: 15px 0 0px;
+  }
+  .singleMovie-trailer iframe {
+    width: 100% !important;
+    height: 280px !important;
+    padding-top: 35px;
+  }
+  #topcontrol {
+    bottom: 15px !important;
+    right: 15px !important;
+  }
+  #topcontrol img {
+    width: 48px !important;
+  }
+  #kallayHeader {
+    height: auto !important;
+  }
+  #kallayHeader .blog-left .blog-shotContent h2 {
+    font-size: 25px !important;
+    padding: 25px 0;
+  }
+}
+
 /*
  Website Name: KALLYAS - Watch Unlimited Movie
  Author: SAGOR RANA

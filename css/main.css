@@ -607,12 +607,14 @@
   .blog-bottom {
     padding-top: 40px !important;
   }
+  .sidebar-blog .blog-item {
+    width: 80%;
+  }
   #kallayHeader {
     height: auto !important;
   }
   #kallayHeader .blog-left .blog-shotContent h2 {
-    font-size: 25px !important;
-    padding: 25px 0;
+    padding: 35px 0;
   }
 }
 
@@ -1040,12 +1042,15 @@
   margin-bottom: 40px;
 }
 
-.kallays-singleBlog .kallays-sidebar .sidebar-recentPost .post-items .blog-item {
-  padding: 12.5px 0;
+.kallays-singleBlog .kallays-sidebar .sidebar-recentPost .post-items .sidebar-blog {
   border-bottom: 1px solid #fff;
 }
 
-.kallays-singleBlog .kallays-sidebar .sidebar-recentPost .post-items .blog-item:last-child {
+.kallays-singleBlog .kallays-sidebar .sidebar-recentPost .post-items .sidebar-blog .blog-item {
+  padding: 12.5px 0;
+}
+
+.kallays-singleBlog .kallays-sidebar .sidebar-recentPost .post-items .sidebar-blog:last-child {
   border-bottom: 0px;
 }
 

@@ -148,10 +148,11 @@
     .sidebar-recentPost{
       margin-bottom: 40px;
       .post-items{
-        .blog-item{
-          padding: 12.5px 0;
+        .sidebar-blog{
           border-bottom: 1px solid $white; 
-          
+          .blog-item{
+            padding: 12.5px 0;
+          }
           &:last-child{
             border-bottom: 0px; 
           }

@@ -752,14 +752,19 @@
     padding-top: 40px !important;
   }
 
+  .sidebar-blog{
+    .blog-item{
+      width: 80%;
+    }
+  }
+
   #kallayHeader {
     height: auto !important;
 
     .blog-left {
       .blog-shotContent {
         h2 {
-          font-size: 25px !important;
-          padding: 25px 0;
+          padding: 35px 0;
         }
       } 
     } 

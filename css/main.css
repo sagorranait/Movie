@@ -541,10 +541,6 @@
     padding-top: 30px !important;
     text-align: center;
   }
-  .kallays-mylist .kallays-mylist h3 {
-    font-size: 23px !important;
-    font-weight: 600 !important;
-  }
   .kallays-mylist .movie-item {
     margin: 0 auto 40px !important;
     text-align: left;
@@ -557,7 +553,7 @@
     padding: 35px 0;
   }
   #kallayMovieHeader .kallays-movies .single-movie .singleMove-image {
-    height: 240px !important;
+    height: 325px !important;
   }
   #kallayMovieHeader .kallays-movies .single-movie .singleMove-image img {
     -o-object-position: center;
@@ -570,35 +566,35 @@
     width: 354px;
   }
   #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .title-text h2 {
-    font-size: 20px !important;
+    font-size: 24px !important;
     padding-bottom: 35px !important;
   }
   #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .title-text li {
-    font-size: 12px;
+    font-size: 16px;
     padding-bottom: 8px;
   }
   #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .btn-rating .movie-btn-two {
-    padding: 10px 11px !important;
-    font-size: 10px !important;
-    margin-right: 1px !important;
+    margin-right: 0px;
+    margin-left: 25px;
   }
   #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .btn-rating .rating {
     text-align: center;
     padding-top: 10px;
   }
   #kallayMovieHeader .kallays-movies .singleMovie-content .content-description p {
-    font-size: 13px;
+    font-size: 15px;
     padding-bottom: 13px;
   }
   #kallayMovieHeader .kallays-movies .singleMovie-content {
     padding-top: 35px;
   }
   .singleMovie-trailer .blog-item {
+    width: 80%;
     padding: 15px 0 0px;
   }
   .singleMovie-trailer iframe {
     width: 100% !important;
-    height: 280px !important;
+    height: 340px !important;
     padding-top: 35px;
   }
   #topcontrol {
@@ -607,6 +603,9 @@
   }
   #topcontrol img {
     width: 48px !important;
+  }
+  .blog-bottom {
+    padding-top: 40px !important;
   }
   #kallayHeader {
     height: auto !important;

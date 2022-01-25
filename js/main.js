@@ -10,16 +10,6 @@ $(document).ready(function(){
     nextArrow:"<div class='slick-next pull-right'><img src='../images/right-arrow.png'/></div>",
     responsive: [
       {
-        breakpoint: 900,
-        settings: {
-          arrows: true,
-          dots: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
         breakpoint: 700,
         settings: {
           arrows: true,

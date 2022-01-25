@@ -812,7 +812,7 @@
     .movie-image{
       padding-top: 20px;
       img{
-        width: 100%;
+        width: 50%;
       }
     }
   }
@@ -825,7 +825,7 @@
       }
 
       .slick-prev{
-        left: 490px !important;
+        left: 635px !important;
         right: 50px;
         top: -46px !important;
       }
@@ -849,7 +849,7 @@
     .teaser-video{
       figure{
         .video{
-          height: 315px;
+          height: 355px;
         }
         .teaser-controls {
           .teaser-buttom {
@@ -890,13 +890,19 @@
         }
 
         .slick-prev{
-          left: 490px !important;
+          left: 635px !important;
           top: -57px !important;
+          cursor: pointer;
         }
   
         .slick-next{
           top: -57px !important;
           right: 26px !important;
+          cursor: pointer;
+        }
+
+        .slick-dots{
+          display: none !important;
         }
       }
     }
@@ -970,7 +976,7 @@
     }
 
     .blog-item {
-      width: 80%;
+      width: 63%;
     }
   }
 
@@ -1037,7 +1043,7 @@
         .content-title{
           padding-bottom: 25px;
           .title-text{
-            width: 354px;
+            width: 470px;
 
             h2 {
               font-size: 24px !important;
@@ -1077,7 +1083,7 @@
 
   .singleMovie-trailer{
     .blog-item {
-      width: 80%;
+      width: 63%;
       padding: 15px 0 0px;
     }
     iframe {
@@ -1102,7 +1108,7 @@
 
   .sidebar-blog{
     .blog-item{
-      width: 80%;
+      width: 63%;
     }
   }
 

@@ -1783,7 +1783,7 @@
         padding: 35px 0;
 
         .singleMove-image {
-          height: 325px !important;
+          height: 500px !important;
 
           img{
             object-position: center;
@@ -1797,7 +1797,7 @@
             width: 470px;
 
             h2 {
-              font-size: 24px !important;
+              font-size: 30px !important;
               padding-bottom: 35px !important;
             }
 
@@ -1828,19 +1828,28 @@
       } 
       .singleMovie-content {
         padding-top: 35px;
+        .content-title{
+          .btn-rating {
+            width: 50%;
+            text-align: right;
+            .rating{
+              text-align: right;
+            }
+          }
+        } 
       }
     } 
   }
 
   .singleMovie-trailer{
     .blog-item {
-      width: 63%;
+      width: auto;
       padding: 15px 0 0px;
     }
     iframe {
       width: 100% !important;
-      height: 340px !important;
-      padding-top: 35px;
+      height: 405px !important;
+      padding-top: 14px;
     }
   }
 
@@ -1859,7 +1868,7 @@
 
   .sidebar-blog{
     .blog-item{
-      width: 63%;
+      width: auto;
     }
   }
 
@@ -1869,7 +1878,8 @@
     .blog-left {
       .blog-shotContent {
         h2 {
-          padding: 35px 0;
+          font-size: 30px;
+          padding: 0px 0 20px;
         }
       } 
     } 

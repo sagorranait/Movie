@@ -1413,7 +1413,7 @@
     padding: 35px 0;
   }
   #kallayMovieHeader .kallays-movies .single-movie .singleMove-image {
-    height: 325px !important;
+    height: 500px !important;
   }
   #kallayMovieHeader .kallays-movies .single-movie .singleMove-image img {
     -o-object-position: center;
@@ -1426,7 +1426,7 @@
     width: 470px;
   }
   #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .title-text h2 {
-    font-size: 24px !important;
+    font-size: 30px !important;
     padding-bottom: 35px !important;
   }
   #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .title-text li {
@@ -1448,14 +1448,21 @@
   #kallayMovieHeader .kallays-movies .singleMovie-content {
     padding-top: 35px;
   }
+  #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .btn-rating {
+    width: 50%;
+    text-align: right;
+  }
+  #kallayMovieHeader .kallays-movies .singleMovie-content .content-title .btn-rating .rating {
+    text-align: right;
+  }
   .singleMovie-trailer .blog-item {
-    width: 63%;
+    width: auto;
     padding: 15px 0 0px;
   }
   .singleMovie-trailer iframe {
     width: 100% !important;
-    height: 340px !important;
-    padding-top: 35px;
+    height: 405px !important;
+    padding-top: 14px;
   }
   #topcontrol {
     bottom: 15px !important;
@@ -1468,13 +1475,14 @@
     padding-top: 40px !important;
   }
   .sidebar-blog .blog-item {
-    width: 63%;
+    width: auto;
   }
   #kallayHeader {
     height: auto !important;
   }
   #kallayHeader .blog-left .blog-shotContent h2 {
-    padding: 35px 0;
+    font-size: 30px;
+    padding: 0px 0 20px;
   }
 }
 

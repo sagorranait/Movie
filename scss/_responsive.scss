@@ -1885,5 +1885,393 @@
     } 
   }
 }
-@media (min-width: 1141px) and (max-width: 1399px){}
+@media (min-width: 1141px) and (max-width: 1399px){
+  #kallaysHeader {
+    height: auto !important;
+    padding-bottom: 35px !important;
+  }
+  .navbar-toggler{
+    i{ color: $red; }
+    &:focus{ box-shadow: 0 0 0 .25rem; }
+  }
+  .kallays-navbar{
+    .nav-item{
+      text-align: right;
+    }
+    .navbar-search{
+      margin: 5px 35px 5px 60px;
+    }
+    .nav-item {
+      padding-top: 6px;
+    }
+    .kallyas-btn {
+      padding: 0 0 0 14px !important;
+      margin: 8px 0 0 auto;
+    }
+    .navbar-search {
+      margin: 0px 11px 0 0 !important;
+      padding-left: 0px;
+      .form-control {
+        margin-top: 5px;
+      }
+      .search-icon i {
+        margin-top: 14px;
+      }
+    }
+    .nav-item {
+      a{
+        padding-right: 20px !important;
+      }
+    }
+  }
+  .kallays-hero{
+    padding: 20px 0;
+    .movie-description{
+      height: 415px;
+      .movie-title{
+        padding: 20px 0 15px;
+        h1{font-size: 35px;}
+      }
+      .movie-short-description{
+        padding-bottom: 20px;
+      }
+    }
+    .movie-image{
+      padding-top: 20px;
+      img{
+        width: 50%;
+      }
+    }
+  }
+
+  .kallays-popular-serials{
+    padding-top: 10px;
+    .serials-slider{
+      .serial{
+        max-width: 205px;
+      }
+
+      .slick-prev{
+        left: 95% !important;
+        top: -46px !important;
+      }
+
+      .slick-next{
+        top: -46px !important;
+        right: 25px !important;
+      }
+
+      .slick-list{
+        height: 220px;
+      }
+      .slick-track {
+        height: 238px;
+      }
+    }
+  }
+
+  #singleMovie{
+    height: auto !important;
+    .teaser-video{
+      figure{
+        .video{
+          height: 355px;
+        }
+        .teaser-controls {
+          .teaser-buttom {
+            bottom: 40px;
+            padding: 8px;
+            .teaser-sound .video-mute {
+              top: 2px;
+              right: 7px;
+            }
+          }
+        } 
+      }
+    }
+    
+    .movie-title{
+      padding: 20px 0 15px;
+    }
+    .movie-description {
+      height: 350px;
+
+      .movie-title h1 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  #trendsNow{
+    height: auto !important;
+    .kallays-ads{
+      padding: 35px 0;
+      img{
+        width: 100%;
+      }
+    }
+
+   .trending-movie{
+    .movies-isotope{
+      .button-group{
+        padding-bottom: 31px !important;
+        width: 950px !important;
+        margin-left: 0px !important;
+
+        .button{
+          margin-left: 0px;
+          margin-right: 8px;
+        }
+
+        .slick-prev{
+          left: 1060px !important;
+          top: -57px !important;
+          cursor: pointer;
+        }
+  
+        .slick-next{
+          top: -57px !important;
+          right: -140px !important;
+          cursor: pointer;
+        }
+
+        .slick-dots{
+          display: none !important;
+        }
+      }
+    }
+   }
+    .load-more {
+      padding: 30px 0;
+    }
+  }
+
+  #bestMovie {
+    padding: 13% 0 !important;
+
+    .movie-title{
+      padding: 20px 0 15px;
+      h1{
+        font-size: 30px;
+      }
+    }
+
+    .movie-description {
+      .movie-short-description {
+        width: 100% !important;
+        p{
+          max-width: 100%;
+        }
+      } 
+    }
+  }
+
+  .single-part{
+    height: auto !important;
+    .teaser-video{
+      iframe{
+        width: 100% !important;
+        height: 255px !important;
+      }
+    }
+    .movie-title h1 {
+      font-size: 30px !important;
+    }
+  }
+
+  #movieBlogs {
+    height: auto !important; 
+
+    .kallays-ads{
+      padding: 30px 0;
+      img{
+        width: 100%;
+      }
+    }
+    
+    .blogs-area{
+      .blog-top{
+        height: auto !important;
+      }
+      .load-more {
+        padding: 30px 0 !important;
+      }
+    }
+
+    .blog-left{ 
+      .blog-shotContent{ 
+        h2 {
+          padding: 0px 0 15px;
+        }
+      }
+    }
+
+    .blog-right {
+      border-left: 0px !important;
+      padding-left: 0px !important;
+    }
+
+    .blog-item {
+      width: auto;
+      padding: 20px 0 0px;
+    }
+  }
+
+  .blog-bottom {
+    padding-top: 40px;
+
+    .blog-items {
+      margin-bottom: 25px;
+      .blogItems-content a {
+        font-size: 15px !important;
+      }
+    }
+  }
+
+  #kallyasFooter {
+    height: auto !important;
+    text-align: center;
+
+    .footer-about{
+      .partners{
+        .stars{
+          justify-content: center !important;
+          padding-bottom: 35px;
+          .star{
+            margin-right: 15px;
+
+            &:last-child{
+              margin-right: 0px;
+            }
+          }
+        }
+      }
+
+      .social-media {
+        padding-bottom: 35px;
+      }
+    }
+  }
+
+  .kallays-mylist {
+    padding-top: 30px !important;
+    text-align: center;
+
+    .movie-item {
+      margin: 0 auto 40px !important;
+      text-align: left;
+    }
+  }
+
+  #kallayMovieHeader {
+    height: auto !important;
+    padding-bottom: 35px !important;
+
+    .kallays-movies{
+      .single-movie {
+        padding: 35px 0;
+
+        .singleMove-image {
+          height: 500px !important;
+
+          img{
+            object-position: center;
+          }
+        }
+      }
+      .singleMovie-content{
+        .content-title{
+          padding-bottom: 25px;
+          .title-text{
+            width: 470px;
+
+            h2 {
+              font-size: 30px !important;
+              padding-bottom: 35px !important;
+            }
+
+            li {
+              font-size: 16px;
+              padding-bottom: 8px;
+            } 
+          }
+
+          .btn-rating{
+            .movie-btn-two {
+              margin-right: 0px;
+              margin-left: 25px;
+            }
+            .rating {
+              text-align: center;
+              padding-top: 10px;
+            }
+          } 
+        }
+
+        .content-description {
+          p {
+            font-size: 15px;
+            padding-bottom: 13px;
+          }
+        } 
+      } 
+      .singleMovie-content {
+        padding-top: 35px;
+        .content-title{
+          .btn-rating {
+            width: 50%;
+            text-align: right;
+            .rating{
+              text-align: right;
+            }
+          }
+        } 
+      }
+    } 
+  }
+
+  .singleMovie-trailer{
+    .blog-item {
+      width: auto;
+      padding: 15px 0 0px;
+    }
+    iframe {
+      width: 100% !important;
+      height: 405px !important;
+      padding-top: 14px;
+    }
+  }
+
+  #topcontrol {
+    bottom: 15px !important;
+    right: 15px !important;
+
+    img{
+      width: 48px !important;
+    }
+  }
+
+  .blog-bottom {
+    padding-top: 40px !important;
+  }
+
+  .sidebar-blog{
+    .blog-item{
+      width: auto;
+    }
+  }
+
+  #kallayHeader {
+    height: auto !important;
+
+    .blog-left {
+      .blog-shotContent {
+        h2 {
+          font-size: 30px;
+          padding: 0px 0 20px;
+        }
+      } 
+    } 
+  }
+}
 @media (min-width: 1400px) and (max-width: 1580px){}
